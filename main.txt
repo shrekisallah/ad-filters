@@ -1,8 +1,9 @@
 [Adblock Plus 3.11.2]
-! Version: 1.11
+! Version: 1.12
 ! Title: Tracker List
 ! Last modified: 14 Oct 2021 17:34 UTC
 ! Expires: 12 hours (update frequency)
+! Homepage: https://github.com/shrekisallah/adblockplus-filter
 ||*.myschoolapp.com/api/WebApp/BrowserLookup/
 googletagmanager.com
 cdn.permutive.com
@@ -11,7 +12,7 @@ platform.twitter.com/widgets.js
 /*/*Facebook%20Icon.svg
 /*/*Twitter%20Icon.svg
 /*/*Instagram%20Icon.svg
-/diffuser/diffuser.js
+/diffuser.js
 ||*.myschoolapp.com/api/webapp/logaction
 ||*.myschoolapp.com/api//webapp/inApptrackingscript/
 /webbooks_static/sapphire/readium/TinCan/analytics/AnalyticsManager.js?ver=*&v=*
@@ -28,4 +29,5 @@ platform.twitter.com/widgets.js
 /sdks/OneSignalSDK.js
 /ccpa.js
 /mixpanel-2-latest.min.js
-/atrk.gif?account=
+/atrk.gif?account=*
+/nr-spa-*.min.js
