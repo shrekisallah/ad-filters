@@ -12,3 +12,7 @@
 ||*.myschoolapp.com/api//webapp/inApptrackingscript/
 /webbooks_static/sapphire/readium/TinCan/analytics/AnalyticsManager.js?ver=*&v=*
 /suiteux.shell.otellogging.js
+/twitter.svg
+/facebook.svg
+/linkedin.svg
+/instagram.svg
