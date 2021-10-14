@@ -1,0 +1,9 @@
+||*.myschoolapp.com/api/WebApp/BrowserLookup/
+/*/*Facebook%20Icon.svg
+/*/*Twitter%20Icon.svg
+/*/*Instagram%20Icon.svg
+/diffuser/diffuser.js
+||*.myschoolapp.com/api/webapp/logaction
+||*.myschoolapp.com/api//webapp/inApptrackingscript/
+/webbooks_static/sapphire/readium/TinCan/analytics/AnalyticsManager.js?ver=*&v=*
+/suiteux.shell.otellogging.js
