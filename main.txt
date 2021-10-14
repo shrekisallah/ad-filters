@@ -1,3 +1,8 @@
+[Adblock Plus 3.11.2]
+! Version: 0
+! Title: Custom List
+! Last modified: 14 Oct 2021 17:34 UTC
+! Expires: 1 days (update frequency)
 ||*.myschoolapp.com/api/WebApp/BrowserLookup/
 /*/*Facebook%20Icon.svg
 /*/*Twitter%20Icon.svg
