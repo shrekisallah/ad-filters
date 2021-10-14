@@ -1,5 +1,5 @@
 [Adblock Plus 3.11.2]
-! Version: 1
+! Version: 1.1
 ! Title: Custom List
 ! Last modified: 14 Oct 2021 17:34 UTC
 ! Expires: 12 hours (update frequency)
@@ -16,3 +16,12 @@
 /facebook.svg
 /linkedin.svg
 /instagram.svg
+/chartbeat_mab.js
+/prebid/dynamic/*.js
+/aax2/apstag.js
+/vans-adapter-google-ima.js
+cdn.adsafeprotected.com
+/js/scroll.js
+/sdks/OneSignalSDK.js
+/ccpa.js
+cdn.permutive.com
