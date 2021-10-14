@@ -1,9 +1,13 @@
 [Adblock Plus 3.11.2]
-! Version: 1.1
-! Title: Custom List
+! Version: 1.11
+! Title: Tracker List
 ! Last modified: 14 Oct 2021 17:34 UTC
 ! Expires: 12 hours (update frequency)
 ||*.myschoolapp.com/api/WebApp/BrowserLookup/
+googletagmanager.com
+cdn.permutive.com
+cdn.adsafeprotected.com
+platform.twitter.com/widgets.js
 /*/*Facebook%20Icon.svg
 /*/*Twitter%20Icon.svg
 /*/*Instagram%20Icon.svg
@@ -20,8 +24,8 @@
 /prebid/dynamic/*.js
 /aax2/apstag.js
 /vans-adapter-google-ima.js
-cdn.adsafeprotected.com
 /js/scroll.js
 /sdks/OneSignalSDK.js
 /ccpa.js
-cdn.permutive.com
+/mixpanel-2-latest.min.js
+/atrk.gif?account=
