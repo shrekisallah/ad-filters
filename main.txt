@@ -32,3 +32,4 @@ platform.twitter.com/widgets.js
 /atrk.gif?account=*
 /nr-spa-*.min.js
 /beacon.min.js
+/gtag/js?id=*
