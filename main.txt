@@ -33,3 +33,4 @@ platform.twitter.com/widgets.js
 /nr-spa-*.min.js
 /beacon.min.js
 /gtag/js?id=*
+/ads/pixel.js
