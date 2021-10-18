@@ -1,10 +1,11 @@
 [Adblock Plus 3.11.2]
-! Version: 50
+! Version: 52
 ! Title: Custom Blocker
-! Last modified: 18 Oct 2021 4:07 UTC
+! Last modified: 18 Oct 2021 4:41 UTC
 ! Expires: 10 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 ||*.myschoolapp.com/api/WebApp/BrowserLookup/
+*.myschoolapp.com/*/GetInboxCounts
 cdn.permutive.com^
 cdn.adsafeprotected.com^
 googleads.g.doubleclick.net^
@@ -41,3 +42,5 @@ dev.visualwebsiteoptimizer.com^
 /assets/light-*.css
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ##.docs-companion-app-switcher-container.docs-material
+/chrome.svg
+###nonepremium
