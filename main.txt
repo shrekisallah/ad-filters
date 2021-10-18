@@ -34,10 +34,10 @@ dev.visualwebsiteoptimizer.com^
 /nr-spa-*.min.js
 /fbevents.js
 /myy/advertisement
-/banner/contentplacement/
 /cookieconsentpub/v1/geo/location
 /include/*/*.js
 /beacon.min.js
 /gtag/js?id=*
 /ads/pixel.js
 /assets/light-*.css
+microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
