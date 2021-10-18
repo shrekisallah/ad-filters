@@ -1,5 +1,5 @@
 [Adblock Plus 3.11.2]
-! Version: 1.12
+! Version: 1.0.0
 ! Title: Tracker List
 ! Last modified: 14 Oct 2021 17:34 UTC
 ! Expires: 12 hours (update frequency)
@@ -35,3 +35,6 @@ dev.visualwebsiteoptimizer.com
 /fbevents.js
 /cookieconsentpub/v1/geo/location
 /include/*/*.js
+/beacon.min.js
+/gtag/js?id=*
+/ads/pixel.js
