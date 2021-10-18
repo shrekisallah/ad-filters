@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 55
+! Version: 56
 ! Title: Custom Blocker
-! Last modified: 18 Oct 2021 4:58 UTC
+! Last modified: 18 Oct 2021 5:26 UTC
 ! Expires: 5 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 ||*.myschoolapp.com/api/WebApp/BrowserLookup/
@@ -26,6 +26,7 @@ grammarly.com/api/props/v2
 /facebook.svg
 /linkedin.svg
 /instagram.svg
+/chrome.svg
 /chartbeat_mab.js
 /prebid/dynamic/*.js
 /aax2/apstag.js
@@ -44,9 +45,10 @@ grammarly.com/api/props/v2
 /ads/pixel.js
 /assets/light-*.css
 /ts?c.prod.editor.logging.levels
+/content-rating-logo/content
+/cookie-policy/content
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ##.docs-companion-app-switcher-container.docs-material
-/chrome.svg
 ###nonepremium
 ##.itemcard.full
 ##.badge.show
