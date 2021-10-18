@@ -1,5 +1,5 @@
 [Adblock Plus 3.11.2]
-! Version: 54
+! Version: 55
 ! Title: Custom Blocker
 ! Last modified: 18 Oct 2021 4:58 UTC
 ! Expires: 5 hours (update frequency)
@@ -11,6 +11,9 @@ cdn.adsafeprotected.com^
 googleads.g.doubleclick.net^
 platform.twitter.com/widgets.js
 dev.visualwebsiteoptimizer.com^
+grammarly.io/logv2
+grammarly.io/crashv2
+grammarly.com/api/props/v2
 /*/*Facebook%20Icon.svg
 /*/*Twitter%20Icon.svg
 /*/*Instagram%20Icon.svg
@@ -40,6 +43,7 @@ dev.visualwebsiteoptimizer.com^
 /gtag/js?id=*
 /ads/pixel.js
 /assets/light-*.css
+/ts?c.prod.editor.logging.levels
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ##.docs-companion-app-switcher-container.docs-material
 /chrome.svg
