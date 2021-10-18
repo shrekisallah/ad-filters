@@ -16,6 +16,7 @@ grammarly.io/logv2
 grammarly.io/crashv2
 grammarly.com/api/props/v2
 embed-fastly.wistia.com$media
+grammarflip.com*/fontawesome
 /*/*Facebook%20Icon.svg
 /*/*Twitter%20Icon.svg
 /*/*Instagram%20Icon.svg
@@ -61,6 +62,8 @@ embed-fastly.wistia.com$media
 /global$script
 /m-outer$script
 /captions
+/pingback/embed_or_homepageplayerhits
+/*tracking$script
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ##.docs-companion-app-switcher-container.docs-material
 ###nonepremium
