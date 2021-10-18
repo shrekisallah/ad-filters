@@ -52,7 +52,9 @@ grammarly.com/api/props/v2
 /img/tebex.png
 /onetrust/consent
 /adsbygoogle.js
+/cookie-prompt.js
 /svg-sprite-2020.svg
+/profitwell.js
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ##.docs-companion-app-switcher-container.docs-material
 ###nonepremium
