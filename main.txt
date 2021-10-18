@@ -11,6 +11,7 @@ cdn.adsafeprotected.com^
 googleads.g.doubleclick.net^
 platform.twitter.com/widgets.js
 dev.visualwebsiteoptimizer.com^
+m.stripe.com
 grammarly.io/logv2
 grammarly.io/crashv2
 grammarly.com/api/props/v2
@@ -55,6 +56,7 @@ grammarly.com/api/props/v2
 /cookie-prompt.js
 /svg-sprite-2020.svg
 /profitwell.js
+/csp-report
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ##.docs-companion-app-switcher-container.docs-material
 ###nonepremium
