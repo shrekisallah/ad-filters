@@ -1,8 +1,8 @@
 [Adblock Plus 3.11.2]
-! Version: 1.0.0
+! Version: 1.0.1
 ! Title: Custom Blocker
-! Last modified: 14 Oct 2021 17:34 UTC
-! Expires: 12 hours (update frequency)
+! Last modified: 18 Oct 2021 3:43 UTC
+! Expires: 10 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 ||*.myschoolapp.com/api/WebApp/BrowserLookup/
 cdn.permutive.com^
