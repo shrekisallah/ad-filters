@@ -15,6 +15,7 @@ m.stripe.com
 grammarly.io/logv2
 grammarly.io/crashv2
 grammarly.com/api/props/v2
+embed-fastly.wistia.com$media
 /*/*Facebook%20Icon.svg
 /*/*Twitter%20Icon.svg
 /*/*Instagram%20Icon.svg
