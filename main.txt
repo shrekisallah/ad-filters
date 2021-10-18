@@ -47,6 +47,9 @@ grammarly.com/api/props/v2
 /ts?c.prod.editor.logging.levels
 /content-rating-logo/content
 /cookie-policy/content
+/minecraft-server-list.png
+/img/enjin.png
+/img/tebex.png
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ##.docs-companion-app-switcher-container.docs-material
 ###nonepremium
@@ -55,3 +58,5 @@ microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ##.icon.icon-facebook
 ##.icon.icon-instagram
 ##.icon.icon-twitter
+spigotmc.org##.section.funbox
+spigotmc.org###widget_16
