@@ -38,3 +38,4 @@ dev.visualwebsiteoptimizer.com
 /beacon.min.js
 /gtag/js?id=*
 /ads/pixel.js
+/assets/light-*.css
