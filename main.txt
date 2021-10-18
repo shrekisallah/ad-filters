@@ -35,7 +35,6 @@ dev.visualwebsiteoptimizer.com^
 /fbevents.js
 /myy/advertisement
 /banner/contentplacement/
-/onerfstatics/marketingsites
 /cookieconsentpub/v1/geo/location
 /include/*/*.js
 /beacon.min.js
