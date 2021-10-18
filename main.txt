@@ -44,3 +44,4 @@ microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ##.docs-companion-app-switcher-container.docs-material
 /chrome.svg
 ###nonepremium
+##.itemcard.full
