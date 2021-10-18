@@ -1,21 +1,21 @@
 [Adblock Plus 3.11.2]
 ! Version: 1.0.0
-! Title: Tracker List
+! Title: Custom Blocker
 ! Last modified: 14 Oct 2021 17:34 UTC
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 ||*.myschoolapp.com/api/WebApp/BrowserLookup/
-googletagmanager.com
-cdn.permutive.com
-cdn.adsafeprotected.com
+cdn.permutive.com^
+cdn.adsafeprotected.com^
+googleads.g.doubleclick.net^
 platform.twitter.com/widgets.js
-dev.visualwebsiteoptimizer.com
+dev.visualwebsiteoptimizer.com^
 /*/*Facebook%20Icon.svg
 /*/*Twitter%20Icon.svg
 /*/*Instagram%20Icon.svg
 /diffuser.js
-||*.myschoolapp.com/api/webapp/logaction
-||*.myschoolapp.com/api//webapp/inApptrackingscript/
+/api/webapp/logaction
+/api//webapp/inApptrackingscript/
 /webbooks_static/sapphire/readium/TinCan/analytics/AnalyticsManager.js?ver=*&v=*
 /suiteux.shell.otellogging.js
 /twitter.svg
@@ -33,6 +33,9 @@ dev.visualwebsiteoptimizer.com
 /atrk.gif?account=*
 /nr-spa-*.min.js
 /fbevents.js
+/myy/advertisement
+/banner/contentplacement/
+/onerfstatics/marketingsites
 /cookieconsentpub/v1/geo/location
 /include/*/*.js
 /beacon.min.js
