@@ -9,6 +9,7 @@ googletagmanager.com
 cdn.permutive.com
 cdn.adsafeprotected.com
 platform.twitter.com/widgets.js
+dev.visualwebsiteoptimizer.com
 /*/*Facebook%20Icon.svg
 /*/*Twitter%20Icon.svg
 /*/*Instagram%20Icon.svg
@@ -31,3 +32,6 @@ platform.twitter.com/widgets.js
 /mixpanel-2-latest.min.js
 /atrk.gif?account=*
 /nr-spa-*.min.js
+/fbevents.js
+/cookieconsentpub/v1/geo/location
+/include/*/*.js
