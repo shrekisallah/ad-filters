@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 65
+! Version: 66
 ! Title: Custom Blocker
-! Last modified: 19 Oct 2021 7:58 PST
+! Last modified: 19 Oct 2021 11:02 PST
 ! Expires: 5 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -13,6 +13,9 @@
 /atrk.gif
 /csp*report
 /mixpanel-2-latest.min.js
+/reportcsp.ashx
+/RemoteUls.ashx
+/RemoteTelemetry.ashx
 
 ! ads
 /ads/pixel.js
