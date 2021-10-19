@@ -60,6 +60,7 @@ myschoolapp.com*/flags.png
 /app.switcher.mobile.template.html
 /api/webapp/logaction
 /api//webapp/inApptrackingscript/
+myschoolapp.com##.alert.alert-danger
 
 ! twitter.com
 platform.twitter.com/widgets.js
