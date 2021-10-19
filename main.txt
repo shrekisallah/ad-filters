@@ -52,6 +52,7 @@
 ! useless website stuff
 /captions
 /mobile$stylesheet
+/blank.gif
 
 
 ! website specific
