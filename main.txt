@@ -83,6 +83,7 @@ grammarly.com/api/props/v2
 /suiteux.shell.otellogging.js
 /diffuser.js
 /sapphire/build
+/niftyplayer.js
 
 ! spigotmc
 spigotmc.org##.section.funbox
