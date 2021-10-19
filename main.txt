@@ -69,6 +69,7 @@ grammarflip.com*/fontawesome
 /captions
 /pingback/embed_or_homepageplayerhits
 /*tracking$script
+/mobile$stylesheet
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ##.docs-companion-app-switcher-container.docs-material
 ###nonepremium
