@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 64
+! Version: 65
 ! Title: Custom Blocker
-! Last modified: 18 Oct 2021 19:50 PST
+! Last modified: 19 Oct 2021 7:58 PST
 ! Expires: 5 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -56,7 +56,6 @@ myschoolapp.com/api/WebApp/BrowserLookup/
 myschoolapp.com*/GetInboxCounts
 myschoolapp.com*/error.png
 myschoolapp.com*/flags.png
-myschoolapp.com*/app.layout.template.html
 /SchoolInfo/SchoolLabels
 /app.switcher.mobile.template.html
 /api/webapp/logaction
