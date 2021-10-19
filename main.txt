@@ -1,9 +1,57 @@
 [Adblock Plus 3.11.2]
-! Version: 62
+! Version: 64
 ! Title: Custom Blocker
-! Last modified: 18 Oct 2021 19:28 PST
+! Last modified: 18 Oct 2021 19:50 PST
 ! Expires: 5 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
+
+! generic filters
+
+! trackers
+/*tracking$script
+/ts?c.prod.editor.logging.levels
+/atrk.gif
+/csp*report
+/mixpanel-2-latest.min.js
+
+! ads
+/ads/pixel.js
+/myy/advertisement
+
+! social media
+/*Facebook%20Icon.svg
+/*Twitter%20Icon.svg
+/*Instagram%20Icon.svg
+/twitter.svg
+/facebook.svg
+/linkedin.svg
+/instagram.svg
+##.badge.show
+##.icon.icon-facebook
+##.icon.icon-instagram
+##.icon.icon-twitter
+##.mb3.mb3-ns.mb3-m.mb0-l.lh-1
+/fb_32x32.png
+/twitter_32x32.png
+
+! cookies
+/cookieconsentpub/v1/geo/location
+/cookie-prompt.js
+/cookie-policy/content
+/onetrust/consent
+
+! other
+/ccpa.js
+
+! useless website stuff
+/captions
+/mobile$stylesheet
+
+
+! website specific
+
+
+! myschoolapp.com
 myschoolapp.com/api/WebApp/BrowserLookup/
 myschoolapp.com*/GetInboxCounts
 myschoolapp.com*/error.png
@@ -11,73 +59,66 @@ myschoolapp.com*/flags.png
 myschoolapp.com*/app.layout.template.html
 /SchoolInfo/SchoolLabels
 /app.switcher.mobile.template.html
-cdn.permutive.com^
-cdn.adsafeprotected.com^
-googleads.g.doubleclick.net^
+/api/webapp/logaction
+/api//webapp/inApptrackingscript/
+
+! twitter.com
 platform.twitter.com/widgets.js
-dev.visualwebsiteoptimizer.com^
 m.stripe.com
+
+! grammarly.com
 grammarly.io/logv2
 grammarly.io/crashv2
 grammarly.com/api/props/v2
-embed-fastly.wistia.com$media
-grammarflip.com*/fontawesome
-/*/*Facebook%20Icon.svg
-/*/*Twitter%20Icon.svg
-/*/*Instagram%20Icon.svg
-/diffuser.js
-/api/webapp/logaction
-/api//webapp/inApptrackingscript/
+
+! bigideasmath
 /webbooks_static/sapphire/readium/TinCan/analytics/AnalyticsManager.js?ver=*&v=*
 /suiteux.shell.otellogging.js
-/twitter.svg
-/facebook.svg
-/linkedin.svg
-/instagram.svg
-/chrome.svg
-/chartbeat_mab.js
-/prebid/dynamic/*.js
-/aax2/apstag.js
-/vans-adapter-google-ima.js
-/js/scroll.js
-/sdks/OneSignalSDK.js
-/ccpa.js
-/mixpanel-2-latest.min.js
-/atrk.gif?account=*
-/nr-spa-*.min.js
-/fbevents.js
-/myy/advertisement
-/cookieconsentpub/v1/geo/location
-/include/*/*.js
-/gtag/js?id=*
-/ads/pixel.js
-/assets/light-*.css
-/ts?c.prod.editor.logging.levels
-/content-rating-logo/content
-/cookie-policy/content
+/diffuser.js
+
+! spigotmc
+spigotmc.org##.section.funbox
+spigotmc.org###widget_16
 /minecraft-server-list.png
 /img/enjin.png
 /img/tebex.png
-/onetrust/consent
+
+! google
+/chrome.svg
 /adsbygoogle.js
-/cookie-prompt.js
-/svg-sprite-2020.svg
-/profitwell.js
-/csp-report
-/global$script
-/m-outer$script
-/captions
-/pingback/embed_or_homepageplayerhits
-/*tracking$script
-/mobile$stylesheet
+/vans-adapter-google-ima.js
+/gtag/js?id=*
+google.com/log
+
+! microsoft
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
-##.docs-companion-app-switcher-container.docs-material
+/assets/light-*.css
+
+! grammarflip (could block slideshare)
+embed-fastly.wistia.com$media
+grammarflip.com*/fontawesome
+/pingback/embed_or_homepageplayerhits
+/global$script
+
+! proxyscrape
 ###nonepremium
 ##.itemcard.full
-##.badge.show
-##.icon.icon-facebook
-##.icon.icon-instagram
-##.icon.icon-twitter
-spigotmc.org##.section.funbox
-spigotmc.org###widget_16
-##.mb3.mb3-ns.mb3-m.mb0-l.lh-1
+
+! amazon
+aws.dev/submit
+/aws-mktg
+
+! i forgo
+/chartbeat_mab.js
+/prebid/dynamic/*.js
+/aax2/apstag.js
+/js/scroll.js
+/sdks/OneSignalSDK.js
+/nr-spa-*.min.js
+/fbevents.js
+/include/*.js
+/content-rating-logo/content
+/svg-sprite-2020.svg
+/profitwell.js
+/m-outer$script
+##.docs-companion-app-switcher-container.docs-material
