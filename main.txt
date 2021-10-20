@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 73
+! Version: 74
 ! Title: Custom Blocker
-! Last modified: 20 Oct 2021 10:46 PST
+! Last modified: 20 Oct 2021 11:00 PST
 ! Expires: 3 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -27,6 +27,7 @@
 ! ads
 /ads/pixel.js
 /myy/advertisement
+/ads$script
 
 ! social media
 /*Facebook%20Icon.svg
