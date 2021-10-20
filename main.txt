@@ -1,8 +1,8 @@
 [Adblock Plus 3.11.2]
-! Version: 69 (nice)
+! Version: 70
 ! Title: Custom Blocker
-! Last modified: 20 Oct 2021 9:03 PST
-! Expires: 5 hours (update frequency)
+! Last modified: 20 Oct 2021 10:13 PST
+! Expires: 3 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
 ! generic filters
@@ -19,6 +19,8 @@
 ||nmetrics.samsung.com^
 /aurora.js
 /v2/collect
+^tracking^
+/vendor-list.json
 
 ! ads
 /ads/pixel.js
@@ -119,6 +121,16 @@ grammarflip.com*/fontawesome
 ! amazon
 aws.dev/submit
 /aws-mktg
+
+! mediafire
+mediafire.com##div[style*="107%"]
+mediafire.com##div[style*="108%"]
+mediafire.com##div[style*="102%"]
+mediafire.com##div[style*="104%"]
+mediafire.com##div[style*="106%"]
+mediafire.com##div[style*="103%"]
+mediafire.com##div[style*="105%"]
+mediafire.com##div[style*="101%"]
 
 ! i forgo
 /chartbeat_mab.js
