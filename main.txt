@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 70.1
+! Version: 70.2
 ! Title: Custom Blocker
-! Last modified: 20 Oct 2021 10:14 PST
+! Last modified: 20 Oct 2021 10:15 PST
 ! Expires: 3 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -132,6 +132,7 @@ mediafire.com##div[style*="103%"]
 mediafire.com##div[style*="105%"]
 mediafire.com##div[style*="101%"]
 mediafire.com##div[style*="109%"]
+mediafire.com##div[style*="100%"]
 
 ! i forgo
 /chartbeat_mab.js
