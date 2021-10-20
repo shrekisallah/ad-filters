@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 74
+! Version: 74 H1
 ! Title: Custom Blocker
-! Last modified: 20 Oct 2021 11:00 PST
+! Last modified: 20 Oct 2021 13:21 PST
 ! Expires: 3 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -91,7 +91,6 @@ grammarly.com/api/props/v2
 /webbooks_static/sapphire/readium/TinCan/analytics/AnalyticsManager.js?ver=*&v=*
 /suiteux.shell.otellogging.js
 /diffuser.js
-/sapphire/build
 /niftyplayer.js
 
 ! spigotmc
