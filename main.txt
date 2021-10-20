@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 68
+! Version: 69 (nice)
 ! Title: Custom Blocker
-! Last modified: 20 Oct 2021 8:41 PST
+! Last modified: 20 Oct 2021 9:03 PST
 ! Expires: 5 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -46,6 +46,7 @@
 /cookie-prompt.js
 /cookie-policy/content
 /onetrust/consent
+||cookielaw.org^
 
 ! other
 /ccpa.js
