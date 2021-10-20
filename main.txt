@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 67
+! Version: 68
 ! Title: Custom Blocker
-! Last modified: 19 Oct 2021 13:45 PST
+! Last modified: 20 Oct 2021 8:41 PST
 ! Expires: 5 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -39,6 +39,7 @@
 ##.mb3.mb3-ns.mb3-m.mb0-l.lh-1
 /fb_32x32.png
 /twitter_32x32.png
+||reddit.com/errors
 
 ! cookies
 /cookieconsentpub/v1/geo/location
@@ -48,6 +49,7 @@
 
 ! other
 /ccpa.js
+/PushNotifications
 
 ! useless website stuff
 /captions
