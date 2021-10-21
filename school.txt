@@ -1,0 +1,8 @@
+! Title: Normal Filter
+! Version: 1
+! last modified: 2021 Oct 21 13:43 pst
+! Expires: 14 days
+
+myschoolapp.com##a[style*="fbe5e4"]
+myschoolapp.com###missing-assignment
+myschoolapp.com###missing-assignment
