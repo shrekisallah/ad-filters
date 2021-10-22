@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 74 H1
+! Version: 75
 ! Title: Custom Blocker
-! Last modified: 20 Oct 2021 13:21 PST
+! Last modified: 22 Oct 2021 8:32 PST
 ! Expires: 3 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -77,6 +77,7 @@ myschoolapp.com*/flags.png
 /api/webapp/logaction
 /api//webapp/inApptrackingscript/
 myschoolapp.com##.alert.alert-danger
+##.label.label-danger.primary-status
 
 ! twitter.com
 platform.twitter.com/widgets.js
