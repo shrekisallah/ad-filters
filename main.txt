@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 75
+! Version: 75 H1
 ! Title: Custom Blocker
-! Last modified: 22 Oct 2021 8:32 PST
+! Last modified: 22 Oct 2021 8:36 PST
 ! Expires: 3 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -106,7 +106,7 @@ spigotmc.org###widget_16
 /adsbygoogle.js
 /vans-adapter-google-ima.js
 /gtag/js?id=*
-google.com/log
+google.com/log^
 
 ! microsoft
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
