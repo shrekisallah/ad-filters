@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 75 H1
+! Version: 76
 ! Title: Custom Blocker
-! Last modified: 22 Oct 2021 8:36 PST
+! Last modified: 25 Oct 2021 9:50 PST
 ! Expires: 3 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -152,3 +152,7 @@ mediafire.com##div[style*="100%"]
 /profitwell.js
 /m-outer$script
 ##.docs-companion-app-switcher-container.docs-material
+
+! auth0
+auth0.com/_/log
+/dwh-metrics
