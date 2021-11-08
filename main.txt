@@ -60,6 +60,7 @@
 /cookie-policy/content
 /onetrust/consent
 ||cookielaw.org^
+###user_optin_banner
 
 ! other
 /ccpa.js
@@ -147,6 +148,11 @@ mediafire.com##div[style*="105%"]
 mediafire.com##div[style*="101%"]
 mediafire.com##div[style*="109%"]
 mediafire.com##div[style*="100%"]
+
+! surviv
+surviv.io##.surviv-shirts-link
+surviv.io##.ui-stats-adblock.surviv-shirts.surviv-shirts-en
+surviv.io###modal-ask-notification-permission
 
 ! i forgo
 /chartbeat_mab.js
