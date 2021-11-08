@@ -25,6 +25,9 @@
 /buy^$script
 
 ! ads
+^ad^
+^sponsored^
+||fam-ad.com
 /ads/pixel.js
 /myy/advertisement
 /ads$script
