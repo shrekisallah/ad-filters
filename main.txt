@@ -25,7 +25,7 @@
 /buy^$script
 
 ! ads
-^ad^
+^ad*
 ^sponsored^
 ||fam-ad.com
 /ads/pixel.js
@@ -54,6 +54,7 @@
 ##i[class*="instagram"]
 ##i[class*="linkedin"]
 ###menu-latest-footer-social-menu
+##.social*
 
 ! cookies
 /cookieconsentpub/v1/geo/location
@@ -155,7 +156,7 @@ surviv.io##.surviv-shirts-link
 surviv.io##.ui-stats-adblock.surviv-shirts.surviv-shirts-en
 surviv.io###modal-ask-notification-permission
 
-! i forgo
+! i forgo or too lazy
 /chartbeat_mab.js
 /prebid/dynamic/*.js
 /aax2/apstag.js
@@ -169,6 +170,10 @@ surviv.io###modal-ask-notification-permission
 /profitwell.js
 /m-outer$script
 ##.docs-companion-app-switcher-container.docs-material
+##.adl__spec__disc adl__spec__disc--active
+##.modal-content.modal-close
+##.sidebar-post-link.flex.flex-column
+quora.com##.CssComponent__CssInlineComponent-sc-1oskqb9-1.Icon___StyledCssInlineComponent-sc-11tmcw7-0.dugqXw
 
 ! auth0
 auth0.com/_/log
