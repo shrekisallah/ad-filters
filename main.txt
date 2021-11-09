@@ -33,6 +33,18 @@
 /ads$script
 /setAdsTestVariant
 
+! antiadblock
+mediafire.com,foxnews.com##div[style*="107%"]
+mediafire.com,foxnews.com##div[style*="108%"]
+mediafire.com,foxnews.com##div[style*="102%"]
+mediafire.com,foxnews.com##div[style*="104%"]
+mediafire.com,foxnews.com##div[style*="106%"]
+mediafire.com,foxnews.com##div[style*="103%"]
+mediafire.com,foxnews.com##div[style*="105%"]
+mediafire.com,foxnews.com##div[style*="101%"]
+mediafire.com,foxnews.com##div[style*="109%"]
+mediafire.com,foxnews.com##div[style*="100%"]
+
 ! social media
 /*Facebook%20Icon.svg
 /*Twitter%20Icon.svg
@@ -138,18 +150,6 @@ grammarflip.com*/fontawesome
 ! amazon
 aws.dev/submit
 /aws-mktg
-
-! mediafire
-mediafire.com##div[style*="107%"]
-mediafire.com##div[style*="108%"]
-mediafire.com##div[style*="102%"]
-mediafire.com##div[style*="104%"]
-mediafire.com##div[style*="106%"]
-mediafire.com##div[style*="103%"]
-mediafire.com##div[style*="105%"]
-mediafire.com##div[style*="101%"]
-mediafire.com##div[style*="109%"]
-mediafire.com##div[style*="100%"]
 
 ! surviv
 surviv.io##.surviv-shirts-link
