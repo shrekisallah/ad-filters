@@ -133,6 +133,7 @@ spigotmc.org###widget_16
 google.com/log^
 /naLogImpressions^
 docs.google.com##.goog-inline-block.docs-incompatibility-banner
+^google.funding.choices$script
 
 ! microsoft
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
@@ -175,6 +176,7 @@ surviv.io###modal-ask-notification-permission
 ##.modal-content.modal-close
 ##.sidebar-post-link.flex.flex-column
 quora.com##.CssComponent__CssInlineComponent-sc-1oskqb9-1.Icon___StyledCssInlineComponent-sc-11tmcw7-0.dugqXw
+^airship$script
 
 ! auth0
 auth0.com/_/log
