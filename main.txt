@@ -44,6 +44,7 @@ mediafire.com,foxnews.com##div[style*="105%"]
 mediafire.com,foxnews.com##div[style*="101%"]
 mediafire.com,foxnews.com##div[style*="109%"]
 mediafire.com,foxnews.com##div[style*="100%"]
+foxnews.com##div[style*="width"]
 
 ! social media
 /*Facebook%20Icon.svg
