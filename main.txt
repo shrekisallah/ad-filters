@@ -144,6 +144,7 @@ embed-fastly.wistia.com$media
 grammarflip.com*/fontawesome
 /pingback/embed_or_homepageplayerhits
 /global$script
+@@||sandisk.com*global$script
 
 ! proxyscrape
 ###nonepremium
