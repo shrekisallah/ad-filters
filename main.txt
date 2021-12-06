@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 82
+! Version: 83
 ! Title: Custom Blocker
-! Last modified: 8 Nov 2021
+! Last modified: 6 Dec 2021
 ! Expires: 3 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -86,6 +86,11 @@ foxnews.com##div[style*="width"]
 /captions
 /mobile$stylesheet
 /blank.gif
+
+
+! exceptions
+
+@@^ad$script,domain=google.com
 
 
 ! website specific
