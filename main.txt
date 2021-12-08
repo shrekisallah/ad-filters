@@ -1,5 +1,5 @@
 [Adblock Plus 3.11.2]
-! Version: 84
+! Version: 85
 ! Title: Custom Blocker
 ! Last modified: 8 Dec 2021
 ! Expires: 3 hours (update frequency)
@@ -25,7 +25,7 @@
 /buy^$script
 
 ! ads
-^ad$script
+! ^ad$script //commented out due to a lot of falses
 ^sponsored^
 ||fam-ad.com
 /ads/pixel.js
