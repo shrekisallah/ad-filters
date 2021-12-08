@@ -1,5 +1,5 @@
 [Adblock Plus 3.11.2]
-! Version: 85
+! Version: 86
 ! Title: Custom Blocker
 ! Last modified: 8 Dec 2021
 ! Expires: 3 hours (update frequency)
@@ -25,12 +25,11 @@
 /buy^$script
 
 ! ads
-! ^ad$script //commented out due to a lot of falses
+^ads$script
 ^sponsored^
 ||fam-ad.com
 /ads/pixel.js
 /myy/advertisement
-/ads$script
 /setAdsTestVariant
 
 ! antiadblock
@@ -46,6 +45,7 @@ mediafire.com,foxnews.com##div[style*="109%"]
 mediafire.com,foxnews.com##div[style*="100%"]
 foxnews.com##div[style*="width"]
 rbxleaks.com##.swal2-modal.swal2-show
+@@||rbxleaks.com/assets/js/ads$script
 
 ! social media
 /*Facebook%20Icon.svg
