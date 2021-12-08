@@ -1,5 +1,5 @@
 [Adblock Plus 3.11.2]
-! Version: 87
+! Version: 88
 ! Title: Custom Blocker
 ! Last modified: 8 Dec 2021
 ! Expires: 3 hours (update frequency)
@@ -70,6 +70,14 @@ foxnews.com##div[style*="width"]
 ##i[class*="linkedin"]
 ###menu-latest-footer-social-menu
 ##.social*
+##.btn-social.btn-darken.btn-facebook
+##.btn-social.btn-darken.btn-twitter
+##.btn-social.btn-darken.btn-instagram
+##.btn-download-android.btn-download-app.btn-darken
+##.btn-download-ios.btn-download-app.btn-darken
+##.social.facebook
+##.social.twitter
+##.social-icons.mt-3
 
 ! cookies
 /cookieconsentpub/v1/geo/location
@@ -78,6 +86,7 @@ foxnews.com##div[style*="width"]
 /onetrust/consent
 ||cookielaw.org^
 ###user_optin_banner
+###cookies
 
 ! other
 /ccpa.js
@@ -110,6 +119,9 @@ myschoolapp.com*/flags.png
 /api//webapp/inApptrackingscript/
 myschoolapp.com##.alert.alert-danger
 ##.label.label-danger.primary-status
+
+! membean
+membean.com##.alert.alert-dismissable.alert-alert
 
 ! twitter.com
 platform.twitter.com/widgets.js
@@ -166,6 +178,10 @@ aws.dev/submit
 surviv.io##.surviv-shirts-link
 surviv.io##.ui-stats-adblock.surviv-shirts.surviv-shirts-en
 surviv.io###modal-ask-notification-permission
+surviv.io###start-top-left
+
+! quora
+quora.com##.CssComponent__CssInlineComponent-sc-1oskqb9-1.Icon___StyledCssInlineComponent-sc-11tmcw7-0.dugqXw
 
 ! i forgo or too lazy
 /chartbeat_mab.js
@@ -184,7 +200,6 @@ surviv.io###modal-ask-notification-permission
 ##.adl__spec__disc adl__spec__disc--active
 ##.modal-content.modal-close
 ##.sidebar-post-link.flex.flex-column
-quora.com##.CssComponent__CssInlineComponent-sc-1oskqb9-1.Icon___StyledCssInlineComponent-sc-11tmcw7-0.dugqXw
 ^airship$script
 
 ! auth0
