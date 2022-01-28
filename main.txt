@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 88
+! Version: 90
 ! Title: Custom Blocker
-! Last modified: 8 Dec 2021
+! Last modified: 28 Jan 2022
 ! Expires: 3 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
