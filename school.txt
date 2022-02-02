@@ -5,5 +5,6 @@
 ! Expires: 14 days
 
 myschoolapp.com##a[style*="fbe5e4"]
+myschoolapp.com##a[style*="rgb(251, 229, 228)"]
 myschoolapp.com##missing-assignment
 myschoolapp.com###.label.label-danger
