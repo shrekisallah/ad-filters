@@ -199,7 +199,6 @@ quora.com##.CssComponent__CssInlineComponent-sc-1oskqb9-1.Icon___StyledCssInline
 /js/scroll.js
 /sdks/OneSignalSDK.js
 /nr-spa-*.min.js
-/fbevents.js
 /include/*.js
 /content-rating-logo/content
 /svg-sprite-2020.svg
