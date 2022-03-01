@@ -1,8 +1,8 @@
 [Adblock Plus 3.11.2]
-! Version: 90
+! Version: 91
 ! Title: Custom Blocker
-! Last modified: 28 Jan 2022
-! Expires: 3 hours (update frequency)
+! Last modified: 1 Mar 2022
+! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
 ! generic filters
@@ -168,7 +168,7 @@ microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 ! grammarflip (could block slideshare)
 embed-fastly.wistia.com$media
 /pingback/embed_or_homepageplayerhits
-/global$script
+||grammarflip.com*/global$script
 @@||sandisk.com*global$script
 
 ! proxyscrape
