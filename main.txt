@@ -113,6 +113,7 @@ foxnews.com##div[style*="width"]
 
 
 ! myschoolapp.com
+||onanalytics.myschoolcdn.com^
 myschoolapp.com/api/WebApp/BrowserLookup/
 myschoolapp.com*/GetInboxCounts
 myschoolapp.com*/error.png
@@ -120,7 +121,7 @@ myschoolapp.com*/flags.png
 /SchoolInfo/SchoolLabels
 /app.switcher.mobile.template.html
 /api/webapp/logaction
-/api//webapp/inApptrackingscript/
+/inApptrackingscript/
 myschoolapp.com##.alert.alert-danger
 ##.label.label-danger.primary-status
 
