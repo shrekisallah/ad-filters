@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 91
+! Version: 92
 ! Title: Custom Blocker
-! Last modified: 1 Mar 2022
+! Last modified: 11 Mar 2022
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -54,6 +54,7 @@ foxnews.com##div[style*="width"]
 ! paywalls
 ! www.enotes.com###enotes-paywall
 ###*paywall
+*paywall
 
 ! social media
 /*Facebook%20Icon.svg
