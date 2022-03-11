@@ -51,6 +51,10 @@ foxnews.com##div[style*="width"]
 @@||rbxleaks.com/assets/js/ads$script
 ##.swal2-container.swal2-fade.swal2-shown
 
+! paywalls
+! www.enotes.com###enotes-paywall
+###*paywall
+
 ! social media
 /*Facebook%20Icon.svg
 /*Twitter%20Icon.svg
@@ -124,6 +128,7 @@ myschoolapp.com*/flags.png
 /inApptrackingscript/
 myschoolapp.com##.alert.alert-danger
 ##.label.label-danger.primary-status
+myschoolapp.com##li.oneline:nth-of-type(2) > .sky-nav.white-fgc-hover
 
 ! membean
 membean.com##.alert.alert-dismissable.alert-alert
@@ -138,7 +143,7 @@ grammarly.io/crashv2
 grammarly.com/api/props/v2
 
 ! bigideasmath
-/webbooks_static/sapphire/readium/TinCan/analytics/AnalyticsManager.js?ver=*&v=*
+^AnalyticsManager$script
 /suiteux.shell.otellogging.js
 /diffuser.js
 /niftyplayer.js
@@ -159,8 +164,6 @@ google.com/log^
 /naLogImpressions^
 docs.google.com##.goog-inline-block.docs-incompatibility-banner
 ^google.funding.choices$script
-||gstaticadssl.l.google.com^
-@@||gstaticadssl.l.google.com^$font
 
 ! microsoft
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
@@ -170,7 +173,6 @@ microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
 embed-fastly.wistia.com$media
 /pingback/embed_or_homepageplayerhits
 ||grammarflip.com*/global$script
-@@||sandisk.com*global$script
 
 ! proxyscrape
 ###nonepremium
@@ -192,6 +194,14 @@ quora.com##.CssComponent__CssInlineComponent-sc-1oskqb9-1.Icon___StyledCssInline
 ! geo-fs.com
 ||www.geo-fs.com/images/ba/merch_skyscraper.jpg$image
 ||www.geo-fs.com/images/ba/apps_skyscraper.jpg$image
+
+! crunchyroll
+www.crunchyroll.com###message_box
+www.crunchyroll.com##.anon-state
+
+! github
+github.com##article.my-4.color-bg-default.color-shadow-small.rounded.border > .p-3
+github.com##.mx-auto.width-fit.d-block
 
 ! i forgo or too lazy
 /chartbeat_mab.js
