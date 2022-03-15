@@ -1,11 +1,30 @@
 [Adblock Plus 3.11.2]
-! Version: 92
+! Version: 93
 ! Title: Custom Blocker
-! Last modified: 11 Mar 2022
+! Last modified: 15 Mar 2022
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
 ! generic filters
+
+! bad domains
+||js.chilipiper.com^$all
+||fam-ad.com^$all
+||onanalytics.myschoolcdn.com^$all
+||analyticsengine.s3.amazonaws.com^$all
+||affiliationjs.s3.amazonaws.com^$all
+||advertising-api-eu.amazon.com^$all
+||amazonaax.com^$all
+||amazonclix.com^$all
+||hotjar-analytics.com^$all
+||api-hotjar.com^$all
+||app.getsentry.com^$all
+||an.facebook.com^$all
+||advertising.twitter.com^$all
+||widgets.pinterest.com^$all
+||d.reddit.com^$all
+||metrics.mzstatic.com^$all
+||m.stripe.com^$all
 
 ! trackers
 /*tracking$script
@@ -23,18 +42,20 @@
 /vendor-list.json
 /v1/produce
 /buy^$script
-||js.chilipiper.com^
 ^chilipiper/marketing.js$script
 
 ! ads
 ! ^ads$script (too many falses)
 ^sponsored^
-||fam-ad.com^
 /ads/pixel.js
 /myy/advertisement
 /setAdsTestVariant
 ###supertool_ad_variation
 ##[class$="ad-hfu"]
+/*ad*free$image
+*ad*blocked$image
+##:has-text(/ad free/i)
+##:has-text(/premium plans/i)
 
 ! antiadblock
 mediafire.com,foxnews.com##div[style*="107%"]
@@ -49,12 +70,10 @@ mediafire.com,foxnews.com##div[style*="109%"]
 mediafire.com,foxnews.com##div[style*="100%"]
 foxnews.com##div[style*="width"]
 ##.swal2-modal.swal2-show
-@@||rbxleaks.com/assets/js/ads$script
 ##.swal2-container.swal2-fade.swal2-shown
 
 ! paywalls
 ! www.enotes.com###enotes-paywall
-##*paywall
 *paywall
 
 ! social media
@@ -78,16 +97,16 @@ foxnews.com##div[style*="width"]
 ##[class*="instagram"]
 ##[class*="linkedin"]
 ###menu-latest-footer-social-menu
-##.social*
-##.btn-social.btn-darken.btn-facebook
-##.btn-social.btn-darken.btn-twitter
-##.btn-social.btn-darken.btn-instagram
-##.btn-download-android.btn-download-app.btn-darken
-##.btn-download-ios.btn-download-app.btn-darken
-##.social.facebook
-##.social.twitter
-##.social-icons.mt-3
+##.btn-social
+##.btn-download-app
+##.social
+##.social-icons
 ##[alt*="facebook"]
+/tiktok*.svg
+##[href*="tiktok"]
+##.share-via
+##.social-icon
+##span:has-text(/connect/i):upward(1)
 
 ! annoyances
 ##.boxzilla
@@ -121,7 +140,6 @@ foxnews.com##div[style*="width"]
 
 
 ! myschoolapp.com
-||onanalytics.myschoolcdn.com^
 myschoolapp.com/api/WebApp/BrowserLookup/
 myschoolapp.com*/GetInboxCounts
 myschoolapp.com*/error.png
@@ -129,7 +147,7 @@ myschoolapp.com*/flags.png
 /SchoolInfo/SchoolLabels
 /app.switcher.mobile.template.html
 /api/webapp/logaction
-/inApptrackingscript/
+/inApptrackingscript
 myschoolapp.com##.alert.alert-danger
 ##.label.label-danger.primary-status
 myschoolapp.com##li.oneline:nth-of-type(2) > .sky-nav.white-fgc-hover
@@ -139,7 +157,6 @@ membean.com##.alert.alert-dismissable.alert-alert
 
 ! twitter.com
 platform.twitter.com/widgets.js
-m.stripe.com
 
 ! grammarly.com
 grammarly.io/logv2
