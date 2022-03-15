@@ -27,13 +27,14 @@
 ^chilipiper/marketing.js$script
 
 ! ads
-^ads$script
+! ^ads$script (too many falses)
 ^sponsored^
-||fam-ad.com
+||fam-ad.com^
 /ads/pixel.js
 /myy/advertisement
 /setAdsTestVariant
 ###supertool_ad_variation
+##[class$="ad-hfu"]
 
 ! antiadblock
 mediafire.com,foxnews.com##div[style*="107%"]
@@ -53,7 +54,7 @@ foxnews.com##div[style*="width"]
 
 ! paywalls
 ! www.enotes.com###enotes-paywall
-###*paywall
+##*paywall
 *paywall
 
 ! social media
@@ -72,10 +73,10 @@ foxnews.com##div[style*="width"]
 /fb_32x32.png
 /twitter_32x32.png
 ||reddit.com/errors
-##i[class*="facebook"]
-##i[class*="twitter"]
-##i[class*="instagram"]
-##i[class*="linkedin"]
+##[class*="facebook"]
+##[class*="twitter"]
+##[class*="instagram"]
+##[class*="linkedin"]
 ###menu-latest-footer-social-menu
 ##.social*
 ##.btn-social.btn-darken.btn-facebook
@@ -86,11 +87,18 @@ foxnews.com##div[style*="width"]
 ##.social.facebook
 ##.social.twitter
 ##.social-icons.mt-3
+##[alt*="facebook"]
+
+! annoyances
+##.boxzilla
+###signup-promo-modal
+##.modal-backdrop
+##.house-promo
 
 ! cookies
 /cookieconsentpub/v1/geo/location
 /cookie-prompt.js
-/cookie-policy/content
+/cookie-policy
 /onetrust/consent
 ||cookielaw.org^
 ###user_optin_banner
@@ -106,12 +114,7 @@ foxnews.com##div[style*="width"]
 /mobile$stylesheet
 /blank.gif
 ^blm-logo.png
-
-
-! exceptions
-
-@@^ad$script,domain=google.com
-@@^ad$script,domain=gstatic.com
+/cleardot.gif
 
 
 ! website specific
@@ -199,10 +202,15 @@ quora.com##.CssComponent__CssInlineComponent-sc-1oskqb9-1.Icon___StyledCssInline
 ! crunchyroll
 www.crunchyroll.com###message_box
 www.crunchyroll.com##.anon-state
+www.crunchyroll.com###showmedia_free_trial_signup
 
 ! github
 github.com##article.my-4.color-bg-default.color-shadow-small.rounded.border > .p-3
 github.com##.mx-auto.width-fit.d-block
+
+! chess
+www.chess.com##.ready-to-play-banner-content
+www.chess.com##.ready-to-play-banner-desktop.ready-to-play-banner-component
 
 ! i forgo or too lazy
 /chartbeat_mab.js
