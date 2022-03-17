@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 93
+! Version: 94
 ! Title: Custom Blocker
-! Last modified: 15 Mar 2022
+! Last modified: 17 Mar 2022
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -25,6 +25,8 @@
 ||d.reddit.com^$all
 ||metrics.mzstatic.com^$all
 ||m.stripe.com^$all
+||nmetrics.samsung.com^$all
+||cookielaw.org^$all
 
 ! trackers
 /*tracking$script
@@ -35,7 +37,6 @@
 /reportcsp.ashx
 /RemoteUls.ashx
 /RemoteTelemetry.ashx
-||nmetrics.samsung.com^
 /aurora.js
 /v2/collect
 ^tracking^
@@ -113,13 +114,13 @@ foxnews.com##div[style*="width"]
 ###signup-promo-modal
 ##.modal-backdrop
 ##.house-promo
+div[data-obj*="Powerful Women"]
 
 ! cookies
 /cookieconsentpub/v1/geo/location
 /cookie-prompt.js
 /cookie-policy
 /onetrust/consent
-||cookielaw.org^
 ###user_optin_banner
 ###cookies
 
@@ -134,6 +135,7 @@ foxnews.com##div[style*="width"]
 /blank.gif
 ^blm-logo.png
 /cleardot.gif
+/idevices.
 
 
 ! website specific
@@ -154,6 +156,7 @@ myschoolapp.com##li.oneline:nth-of-type(2) > .sky-nav.white-fgc-hover
 
 ! membean
 membean.com##.alert.alert-dismissable.alert-alert
+||cdn0.membean.com^$media,1p
 
 ! twitter.com
 platform.twitter.com/widgets.js
@@ -185,6 +188,7 @@ google.com/log^
 /naLogImpressions^
 docs.google.com##.goog-inline-block.docs-incompatibility-banner
 ^google.funding.choices$script
+drive.google.com##div[style]:has-text(Get Drive for desktop)
 
 ! microsoft
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
