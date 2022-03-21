@@ -1,7 +1,7 @@
 [Adblock Plus 3.11.2]
-! Version: 94
+! Version: 95
 ! Title: Custom Blocker
-! Last modified: 17 Mar 2022
+! Last modified: 21 Mar 2022
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -27,14 +27,13 @@
 ||m.stripe.com^$all
 ||nmetrics.samsung.com^$all
 ||cookielaw.org^$all
+||tiqcdn.com^$all
 
 ! trackers
 /*tracking$script
 /ts?c.prod.editor.logging.levels
 /atrk.gif
-/csp*report
 /mixpanel-2-latest.min.js
-/reportcsp.ashx
 /RemoteUls.ashx
 /RemoteTelemetry.ashx
 /aurora.js
@@ -92,7 +91,6 @@ foxnews.com##div[style*="width"]
 ##.mb3.mb3-ns.mb3-m.mb0-l.lh-1
 /fb_32x32.png
 /twitter_32x32.png
-||reddit.com/errors
 ##[class*="facebook"]
 ##[class*="twitter"]
 ##[class*="instagram"]
@@ -102,12 +100,14 @@ foxnews.com##div[style*="width"]
 ##.btn-download-app
 ##.social
 ##.social-icons
+##.socialIcons
 ##[alt*="facebook"]
 /tiktok*.svg
 ##[href*="tiktok"]
 ##.share-via
 ##.social-icon
 ##span:has-text(/connect/i):upward(1)
+##[aria-label="Social media"]
 
 ! annoyances
 ##.boxzilla
@@ -115,6 +115,7 @@ foxnews.com##div[style*="width"]
 ##.modal-backdrop
 ##.house-promo
 div[data-obj*="Powerful Women"]
+||nytimes.com##[aria-label="A message from The Times"]
 
 ! cookies
 /cookieconsentpub/v1/geo/location
@@ -124,9 +125,17 @@ div[data-obj*="Powerful Women"]
 ###user_optin_banner
 ###cookies
 
+! error reporting
+||reddit.com/errors
+/csp*report
+/reportcsp.ashx
+
+! notifications
+/PushNotifications
+###fsPagePopNotification
+
 ! other
 /ccpa.js
-/PushNotifications
 /zerg^$script,third-party
 
 ! useless website stuff
@@ -153,6 +162,7 @@ myschoolapp.com*/flags.png
 myschoolapp.com##.alert.alert-danger
 ##.label.label-danger.primary-status
 myschoolapp.com##li.oneline:nth-of-type(2) > .sky-nav.white-fgc-hover
+myschoolapp.com/api/page/logview
 
 ! membean
 membean.com##.alert.alert-dismissable.alert-alert
