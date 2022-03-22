@@ -1,36 +1,302 @@
-[Adblock Plus 3.11.2]
-! Version: 1.0.1
-! Title: Tracker List
-! Last modified: 14 Oct 2021 17:34 UTC
-! Expires: 12 hours (update frequency)
+! Version: 96
+! Title: Custom Blocker
+! Last modified: 21 Mar 2022
+! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
-||*.myschoolapp.com/api/WebApp/BrowserLookup/
-googletagmanager.com
-cdn.permutive.com
-cdn.adsafeprotected.com
-platform.twitter.com/widgets.js
-/*/*Facebook%20Icon.svg
-/*/*Twitter%20Icon.svg
-/*/*Instagram%20Icon.svg
-/diffuser.js
-||*.myschoolapp.com/api/webapp/logaction
-||*.myschoolapp.com/api//webapp/inApptrackingscript/
-/webbooks_static/sapphire/readium/TinCan/analytics/AnalyticsManager.js?ver=*&v=*
-/suiteux.shell.otellogging.js
+
+! generic filters
+
+! bad domains
+||js.chilipiper.com^$all
+||fam-ad.com^$all
+||onanalytics.myschoolcdn.com^$all
+||analyticsengine.s3.amazonaws.com^$all
+||affiliationjs.s3.amazonaws.com^$all
+||advertising-api-eu.amazon.com^$all
+||amazonaax.com^$all
+||amazonclix.com^$all
+||hotjar-analytics.com^$all
+||api-hotjar.com^$all
+||app.getsentry.com^$all
+||an.facebook.com^$all
+||advertising.twitter.com^$all
+||widgets.pinterest.com^$all
+||d.reddit.com^$all
+||metrics.mzstatic.com^$all
+||m.stripe.com^$all
+||nmetrics.samsung.com^$all
+||cookielaw.org^$all
+||tiqcdn.com^$all
+||alive.github.com^
+||privo.com^$3p
+||el.quizlet.com^
+
+! trackers
+/*tracking$script
+/ts?c.prod.editor.logging.levels
+/atrk.gif
+/mixpanel-2-latest.min.js
+/RemoteUls.ashx
+/RemoteTelemetry.ashx
+/aurora.js
+/v2/collect
+^tracking^
+/vendor-list.json
+/v1/produce
+/buy^$script
+^chilipiper/marketing.js$script
+||www.mathpapa.com/gte^
+
+! ads
+! ^ads$script (too many falses)
+^sponsored^
+/ads/pixel.js
+/myy/advertisement
+/setAdsTestVariant
+###supertool_ad_variation
+##[class$="ad-hfu"]
+/*ad*free$image
+*ad*blocked$image
+##:has-text(/ad free/i)
+##:has-text(/premium plans/i)
+##.ad-container
+##.ads-in-page
+blockchair.com##span:has-text(/sponsored/i):upward(4)
+linkvertise.com##[src*="/suggestions"]:upward(12)
+##.SetPageTerms-embeddedDesktopAdz
+##[data-ad-sticky]
+##.MatchModeStudyBreak-adContainer
+##.MatchModeStudyBreak-adWrapper
+###endpoint[href="/premium"]
+myanimelist.net##.ac.footer-recommended
+myanimelist.net##div.footer-link-icon-block:nth-of-type(1)
+myanimelist.net##.tag_pc_top
+
+! antiadblock
+mediafire.com,foxnews.com##div[style*="107%"]
+mediafire.com,foxnews.com##div[style*="108%"]
+mediafire.com,foxnews.com##div[style*="102%"]
+mediafire.com,foxnews.com##div[style*="104%"]
+mediafire.com,foxnews.com##div[style*="106%"]
+mediafire.com,foxnews.com##div[style*="103%"]
+mediafire.com,foxnews.com##div[style*="105%"]
+mediafire.com,foxnews.com##div[style*="101%"]
+mediafire.com,foxnews.com##div[style*="109%"]
+mediafire.com,foxnews.com##div[style*="100%"]
+foxnews.com##div[style*="width"]
+##.swal2-modal.swal2-show
+##.swal2-container.swal2-fade.swal2-shown
+
+! paywalls
+! www.enotes.com###enotes-paywall
+*paywall
+##.unlock-section
+
+! social media
+/*Facebook%20Icon.svg
+/*Twitter%20Icon.svg
+/*Instagram%20Icon.svg
 /twitter.svg
 /facebook.svg
 /linkedin.svg
 /instagram.svg
+##.badge.show
+##.icon.icon-facebook
+##.icon.icon-instagram
+##.icon.icon-twitter
+##.mb3.mb3-ns.mb3-m.mb0-l.lh-1
+/fb_32x32.png
+/twitter_32x32.png
+##[class*="facebook"]
+##[class*="twitter"]
+##[class*="instagram"]
+##[class*="linkedin"]
+##a[href*="facebook"]
+##a[href*="instagram"]
+##a[href*="twitter"]
+##a[href*="linkedin"]
+##a[href*="tiktok"]
+###menu-latest-footer-social-menu
+##.btn-social
+##.btn-download-app
+##.social
+##.social-icons
+##.socialIcons
+##[alt*="facebook"]
+/tiktok*.svg
+##.share-via
+##.social-icon
+##span:has-text(/connect/i):upward(1)
+##[aria-label="Social media"]
+
+! annoyances
+##.boxzilla
+###signup-promo-modal
+##.modal-backdrop
+##.house-promo
+div[data-obj*="Powerful Women"]
+||nytimes.com##[aria-label="A message from The Times"]
+a:has-text(blacklivesmatter)
+##a[href*="nft"]
+###popup-img
+###page-popup-wrapper
+
+! cookies
+/cookieconsentpub/v1/geo/location
+/cookie-prompt.js
+/cookie-policy
+/onetrust/consent
+###user_optin_banner
+###cookies
+##span:has-text(/third-party cookies/i):upward(1)
+
+! error reporting
+||reddit.com/errors
+/csp*report
+/reportcsp.ashx
+
+! notifications
+/PushNotifications
+###fsPagePopNotification
+
+! other
+/ccpa.js
+/zerg^$script,third-party
+
+! useless website stuff
+/captions
+/mobile$stylesheet
+^blm-logo.png
+/idevices.
+
+
+! website specific
+
+
+! myschoolapp.com
+myschoolapp.com/api/WebApp/BrowserLookup/
+myschoolapp.com*/GetInboxCounts
+myschoolapp.com*/error.png
+myschoolapp.com*/flags.png
+/SchoolInfo/SchoolLabels
+/app.switcher.mobile.template.html
+/api/webapp/logaction
+/inApptrackingscript
+myschoolapp.com##.alert.alert-danger
+##.label.label-danger.primary-status
+myschoolapp.com##li.oneline:nth-of-type(2) > .sky-nav.white-fgc-hover
+myschoolapp.com/api/page/logview
+###official-notes
+
+! membean
+membean.com##.alert.alert-dismissable.alert-alert
+||cdn0.membean.com^$media,1p
+
+! twitter.com
+platform.twitter.com/widgets.js
+
+! grammarly.com
+grammarly.io/logv2
+grammarly.io/crashv2
+grammarly.com/api/props/v2
+
+! bigideasmath
+^AnalyticsManager$script
+/suiteux.shell.otellogging.js
+/diffuser.js
+/niftyplayer.js
+
+! spigotmc
+spigotmc.org##.section.funbox
+spigotmc.org###widget_16
+/minecraft-server-list.png
+/img/enjin.png
+/img/tebex.png
+
+! google
+/chrome.svg
+/adsbygoogle.js
+/vans-adapter-google-ima.js
+/gtag/js?id=*
+google.com/log^
+/naLogImpressions^
+docs.google.com##.goog-inline-block.docs-incompatibility-banner
+^google.funding.choices$script
+drive.google.com##div[style]:has-text(Get Drive for desktop)
+www.youtube.com##div#dismissible:has(span:has-text(Recommended movies))
+www.youtube.com##ytd-info-panel-content-renderer
+###google-block
+www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2) > .ytd-button-renderer.style-scope.yt-simple-endpoint
+www.youtube.com###dismissible.ytd-primetime-promo-renderer
+docs.google.com##.jfk-butterBar-shown.jfk-butterBar-info.jfk-butterBar
+
+! microsoft
+microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
+/assets/light-*.css
+
+! grammarflip (could block slideshare)
+embed-fastly.wistia.com$media
+/pingback/embed_or_homepageplayerhits
+||grammarflip.com*/global$script
+
+! proxyscrape
+###nonepremium
+##.itemcard.full
+
+! amazon
+aws.dev/submit
+/aws-mktg
+
+! surviv
+surviv.io##.surviv-shirts-link
+surviv.io##.ui-stats-adblock.surviv-shirts.surviv-shirts-en
+surviv.io###modal-ask-notification-permission
+surviv.io###start-top-left
+
+! quora
+quora.com##.CssComponent__CssInlineComponent-sc-1oskqb9-1.Icon___StyledCssInlineComponent-sc-11tmcw7-0.dugqXw
+
+! geo-fs.com
+||www.geo-fs.com/images/ba/merch_skyscraper.jpg$image
+||www.geo-fs.com/images/ba/apps_skyscraper.jpg$image
+
+! crunchyroll
+crunchyroll.com###message_box
+crunchyroll.com##.anon-state
+crunchyroll.com###showmedia_free_trial_signup
+crunchyroll.com##.news-twitter
+crunchyroll.com##h1.cr-header.news-header-right:nth-of-type(2)
+crunchyroll.com###marketing_box
+crunchyroll.com##li.large-margin-bottom:nth-of-type(1)
+crunchyroll.com###message_box
+
+! github
+github.com##article.my-4.color-bg-default.color-shadow-small.rounded.border > .p-3
+github.com##.mx-auto.width-fit.d-block
+||github.com/_alive
+
+! chess
+www.chess.com##.ready-to-play-banner-content
+www.chess.com##.ready-to-play-banner-desktop.ready-to-play-banner-component
+
+! i forgo or too lazy
 /chartbeat_mab.js
 /prebid/dynamic/*.js
 /aax2/apstag.js
-/vans-adapter-google-ima.js
 /js/scroll.js
 /sdks/OneSignalSDK.js
-/ccpa.js
-/mixpanel-2-latest.min.js
-/atrk.gif?account=*
 /nr-spa-*.min.js
-/beacon.min.js
-/gtag/js?id=*
-/ads/pixel.js
+/include/*.js
+/content-rating-logo/content
+/svg-sprite-2020.svg
+/profitwell.js
+/m-outer$script
+##.docs-companion-app-switcher-container.docs-material
+##.adl__spec__disc adl__spec__disc--active
+##.modal-content.modal-close
+##.sidebar-post-link.flex.flex-column
+^airship$script
+
+! auth0
+auth0.com/_/log
+/dwh-metrics
