@@ -1,4 +1,4 @@
-! Version: 96
+! Version: 97
 ! Title: Custom Blocker
 ! Last modified: 21 Mar 2022
 ! Expires: 24 hours (update frequency)
@@ -30,6 +30,7 @@
 ||alive.github.com^
 ||privo.com^$3p
 ||el.quizlet.com^
+||d23tl967axkois.cloudfront.net^
 
 ! trackers
 /*tracking$script
@@ -46,6 +47,8 @@
 /buy^$script
 ^chilipiper/marketing.js$script
 ||www.mathpapa.com/gte^
+/P4x88I
+||*c.evidon.com^
 
 ! ads
 ! ^ads$script (too many falses)
@@ -128,14 +131,15 @@ foxnews.com##div[style*="width"]
 ##.social-icon
 ##span:has-text(/connect/i):upward(1)
 ##[aria-label="Social media"]
+##.social-media
 
 ! annoyances
 ##.boxzilla
 ###signup-promo-modal
 ##.modal-backdrop
 ##.house-promo
-div[data-obj*="Powerful Women"]
-||nytimes.com##[aria-label="A message from The Times"]
+##div[data-obj*="Powerful Women"]
+nytimes.com##[aria-label="A message from The Times"]
 a:has-text(blacklivesmatter)
 ##a[href*="nft"]
 ###popup-img
@@ -152,7 +156,7 @@ a:has-text(blacklivesmatter)
 
 ! error reporting
 ||reddit.com/errors
-/csp*report
+^csp
 /reportcsp.ashx
 
 ! notifications
