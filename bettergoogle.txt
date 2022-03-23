@@ -1,6 +1,6 @@
 ! Version: 1
 ! Title: Better Google
-! Expires: 24 hours
+! Expires: 9 days
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
 
