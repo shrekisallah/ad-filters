@@ -5,7 +5,10 @@
 
 
 ! pinterest results
-google.*##.g:has(a[href*="pinterest.com"])
+google.*##.g:has(a[href*="pinterest."])
+duckduckgo.com##.result:has(a[href*="pinterest."])
+search.brave.com##.fdb:has(a[href*="pinterest."])
+bing.com##.b_algo:has(a[href*="pinterest."])
 
 
 ! stackoverflow clones (https://github.com/quenhus/uBlock-Origin-dev-filter/blob/main/dist/google/stackoverflow_copycats.txt)
