@@ -1,6 +1,6 @@
-! Version: 98
+! Version: 99
 ! Title: Custom Blocker
-! Last modified: 24 Mar 2022
+! Last modified: 31 Mar 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -68,29 +68,15 @@
 ##.ads-in-page
 blockchair.com##span:has-text(/sponsored/i):upward(4)
 linkvertise.com##[src*="/suggestions"]:upward(12)
-##.SetPageTerms-embeddedDesktopAdz
+quizlet.com##.SetPageTerms-embeddedDesktopAdz
 ##[data-ad-sticky]
-##.MatchModeStudyBreak-adContainer
-##.MatchModeStudyBreak-adWrapper
+quizlet.com##.MatchModeStudyBreak-adContainer
+quizlet.com##.MatchModeStudyBreak-adWrapper
 ###endpoint[href="/premium"]
 myanimelist.net##.ac.footer-recommended
 myanimelist.net##div.footer-link-icon-block:nth-of-type(1)
 myanimelist.net##.tag_pc_top
 
-! antiadblock
-mediafire.com,foxnews.com##div[style*="107%"]
-mediafire.com,foxnews.com##div[style*="108%"]
-mediafire.com,foxnews.com##div[style*="102%"]
-mediafire.com,foxnews.com##div[style*="104%"]
-mediafire.com,foxnews.com##div[style*="106%"]
-mediafire.com,foxnews.com##div[style*="103%"]
-mediafire.com,foxnews.com##div[style*="105%"]
-mediafire.com,foxnews.com##div[style*="101%"]
-mediafire.com,foxnews.com##div[style*="109%"]
-mediafire.com,foxnews.com##div[style*="100%"]
-foxnews.com##div[style*="width"]
-##.swal2-modal.swal2-show
-##.swal2-container.swal2-fade.swal2-shown
 
 ! paywalls
 ! www.enotes.com###enotes-paywall
@@ -146,6 +132,8 @@ a:has-text(blacklivesmatter)
 ##a[href*="nft"]
 ###popup-img
 ###page-popup-wrapper
+##.appDownloads
+##.apps
 
 ! cookies
 /cookieconsentpub/v1/geo/location
