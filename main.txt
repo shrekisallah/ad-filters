@@ -1,4 +1,4 @@
-! Version: 99
+! Version: 100
 ! Title: Custom Blocker
 ! Last modified: 31 Mar 2022
 ! Expires: 24 hours
@@ -22,7 +22,6 @@
 ||advertising.twitter.com^
 ||widgets.pinterest.com^
 ||d.reddit.com^
-||metrics.mzstatic.com^
 ||m.stripe.com^
 ||nmetrics.samsung.com^
 ||cookielaw.org^
