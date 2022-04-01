@@ -1,4 +1,4 @@
-! Version: 1
+! Version: 2
 ! Title: Better Google
 ! Expires: 9 days
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
@@ -9,6 +9,10 @@ google.*##.g:has(a[href*="pinterest."])
 duckduckgo.com##.result:has(a[href*="pinterest."])
 search.brave.com##.fdb:has(a[href*="pinterest."])
 bing.com##.b_algo:has(a[href*="pinterest."])
+search.yahoo.com##li:has(a[href*="pinterest."])
+www.startpage.com##.w-gl__result__main:has(a[href*="pinterest."])
+www.qwant.com##div[domain*="pinterest."]
+yandex.ru##.desktop-card:has(a[href*="pinterest."])
 
 
 ! stackoverflow clones (https://github.com/quenhus/uBlock-Origin-dev-filter/blob/main/dist/google/stackoverflow_copycats.txt)
