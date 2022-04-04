@@ -1,4 +1,4 @@
-! Version: 102
+! Version: 103
 ! Title: Custom Blocker
 ! Last modified: 4 Apr 2022
 ! Expires: 24 hours
@@ -108,7 +108,6 @@ theguardian.com##gu-island[name="Branding"]
 ##.icon.icon-facebook
 ##.icon.icon-instagram
 ##.icon.icon-twitter
-##.mb3.mb3-ns.mb3-m.mb0-l.lh-1
 /fb_32x32.png
 /twitter_32x32.png
 ##div[class*="facebook"]
@@ -133,6 +132,7 @@ theguardian.com##gu-island[name="Branding"]
 ##span:has-text(/connect/i):upward(1)
 ##[aria-label="Social media"]
 ##.social-media
+exodus.com##.x__social
 
 ! annoyances
 ##.boxzilla
@@ -144,6 +144,10 @@ nytimes.com##[aria-label="A message from The Times"]
 chess.com##.ready-to-play-banner-desktop.ready-to-play-banner-component
 a:has-text(blacklivesmatter)
 ##a[href*="nft"]
+##a[href^="https://go.onelink.me"]
+##img[alt^="Appstore"]
+##img[alt^="Playstore"]
+##[src$="store.png"]
 ###popup-img
 ###page-popup-wrapper
 ##.appDownloads
