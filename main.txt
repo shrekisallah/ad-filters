@@ -1,6 +1,6 @@
-! Version: 101
+! Version: 102
 ! Title: Custom Blocker
-! Last modified: 1 Apr 2022
+! Last modified: 4 Apr 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -41,8 +41,8 @@
 /ts?c.prod.editor.logging.levels
 /atrk.gif
 /mixpanel-2-latest.min.js
-/RemoteUls.ashx
-/RemoteTelemetry.ashx
+/RemoteUls
+/RemoteTelemetry
 /aurora.js
 /v2/collect
 ^tracking^
@@ -162,7 +162,7 @@ a:has-text(blacklivesmatter)
 ! error reporting
 ||reddit.com/errors
 ^csp
-/reportcsp.ashx
+/reportcsp
 
 ! notifications
 /PushNotifications
@@ -229,9 +229,7 @@ spigotmc.org###widget_16
 
 ! google
 /chrome.svg
-/adsbygoogle.js
 /vans-adapter-google-ima.js
-/gtag/js?id=*
 google.com/log^
 /naLogImpressions^
 docs.google.com##.goog-inline-block.docs-incompatibility-banner
@@ -281,7 +279,6 @@ crunchyroll.com##.news-twitter
 crunchyroll.com##h1.cr-header.news-header-right:nth-of-type(2)
 crunchyroll.com###marketing_box
 crunchyroll.com##li.large-margin-bottom:nth-of-type(1)
-crunchyroll.com###message_box
 
 ! github
 github.com##article.my-4.color-bg-default.color-shadow-small.rounded.border > .p-3
