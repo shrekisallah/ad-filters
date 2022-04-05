@@ -1,4 +1,4 @@
-! Version: 4
+! Version: 5
 ! Title: Better Google
 ! Expires: 9 days
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
@@ -16,6 +16,7 @@ yandex.ru##.desktop-card:has(a[href*="pinterest."])
 
 ! fake 9animes
 google.*##.g:has(a[href^="https://9anime"]):not(:has(a[href="https://9anime.me/"])):not(:has(a[href="https://9anime.to/"])):not(:has(a[href="https://9anime.id/"])):not(:has(a[href="https://9anime.club/"])):not(:has(a[href="https://9anime.center/"]))
+google.*##.g:has(a[href*="ww.9anime"])
 
 ! stackoverflow clones (https://github.com/quenhus/uBlock-Origin-dev-filter/blob/main/dist/google/stackoverflow_copycats.txt)
 ||code-examples.net^
