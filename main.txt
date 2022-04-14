@@ -139,6 +139,7 @@ history.com##.m-header--social-nav
 ##div[data-obj*="Powerful Women"]
 nytimes.com##[aria-label="A message from The Times"]
 chess.com##.ready-to-play-banner-desktop.ready-to-play-banner-component
+diffchecker.com##.banner
 a:has-text(blacklivesmatter)
 ##a[href*="nft"]
 ##a[href^="https://go.onelink.me"]
@@ -149,6 +150,7 @@ a:has-text(blacklivesmatter)
 ###page-popup-wrapper
 ##.appDownloads
 ##.apps
+/notifications-client$script
 
 ! cookies
 /cookieconsentpub/v1/geo/location
