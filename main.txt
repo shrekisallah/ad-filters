@@ -1,6 +1,6 @@
-! Version: 103
+! Version: 104
 ! Title: Custom Blocker
-! Last modified: 4 Apr 2022
+! Last modified: 14 Apr 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -95,6 +95,7 @@ theguardian.com##gu-island[name="Branding"]
 ! www.enotes.com###enotes-paywall
 *paywall
 ##.unlock-section
+mathpapa.com###solstepshowlink:style(display:inline !important)
 
 ! social media
 /*Facebook%20Icon.svg
@@ -133,6 +134,7 @@ theguardian.com##gu-island[name="Branding"]
 ##[aria-label="Social media"]
 ##.social-media
 exodus.com##.x__social
+history.com##.m-header--social-nav
 
 ! annoyances
 ##.boxzilla
