@@ -115,11 +115,6 @@ mathpapa.com###solstepshowlink:style(display:inline !important)
 ##div[class*="twitter"]
 ##div[class*="instagram"]
 ##div[class*="linkedin"]
-##a[href*="facebook"]
-##a[href*="instagram"]
-##a[href*="twitter"]
-##a[href*="linkedin"]
-##a[href*="tiktok"]
 ###menu-latest-footer-social-menu
 ##.btn-social
 ##.btn-download-app
