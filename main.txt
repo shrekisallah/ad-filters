@@ -34,6 +34,7 @@
 ||weglygmltfpavlu.com^
 ||cirsepuh.net^
 ||s.viioxx.com^
+||vyprvpn.zendesk.com^
 
 
 ! trackers
@@ -53,8 +54,10 @@
 ||www.mathpapa.com/gte^
 /P4x88I
 ||cchome.adobe.io/app/v2/logs
+||support.vyprvpn.com/hc/activity
 auth0.com/_/log
 /dwh-metrics
+/newrelic-*.js
 
 
 ! ads
@@ -89,6 +92,10 @@ theguardian.com##gu-island[name="TopRightAdSlot"]
 theguardian.com##gu-island[name="Branding"]
 ||assets.guim.co.uk/assets/TopRightAdSlot
 ||assets.guim.co.uk/assets/sentryLoader
+~shareasale.com##[href^="https://shareasale.com/"]
+||i.imgur.com^$domain=damedesuyo.com
+adshnk.com##.message.success.ui
+myanimelist.net##div[class^="pda-tla-"]
 
 
 ! paywalls
@@ -116,9 +123,11 @@ mathpapa.com###solstepshowlink:style(display:inline !important)
 ##div[class*="instagram"]
 ##div[class*="linkedin"]
 ###menu-latest-footer-social-menu
+###social
 ##.btn-social
 ##.btn-download-app
 ##.social
+##.socials
 ##.social-icons
 ##.socialIcons
 ##[alt*="facebook"]
@@ -151,6 +160,10 @@ a:has-text(blacklivesmatter)
 ##.appDownloads
 ##.apps
 /notifications-client$script
+hypixel.net##.p-body-sidebar > div.block:nth-of-type(2)
+/PushNotifications
+###fsPagePopNotification
+deletefdp.today##.react-toast-notifications__container
 
 ! cookies
 /cookieconsentpub/v1/geo/location
@@ -160,16 +173,18 @@ a:has-text(blacklivesmatter)
 ###user_optin_banner
 ###cookies
 ##span:has-text(/third-party cookies/i):upward(1)
+##div:has-text(/^we use cookies/i)
+canva.com##div:has-text(/we use essential cookies/i)
 ##.ccpa-floating-bar
+youmail.com##.modal-content:has(span:has-text(/this website uses cookies/i))
+youtube.com##ytd-consent-bump-v2-lightbox
+youtube.com##.opened
+google.*##div:has(> a[href$="/cookies/"])
 
 ! error reporting
 ||reddit.com/errors
 ^csp
 /reportcsp
-
-! notifications
-/PushNotifications
-###fsPagePopNotification
 
 ! other
 /ccpa.js
@@ -244,6 +259,7 @@ youtube.com##ytd-info-panel-content-renderer
 youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2) > .ytd-button-renderer.style-scope.yt-simple-endpoint
 youtube.com###dismissible.ytd-primetime-promo-renderer
 docs.google.com##.jfk-butterBar-shown.jfk-butterBar-info.jfk-butterBar
+google.*###watermark
 
 
 ! microsoft
@@ -306,3 +322,8 @@ github.com##.mx-auto.width-fit.d-block
 ##.modal-content.modal-close
 ##.sidebar-post-link.flex.flex-column
 ^airship$script
+
+! scriptlet injections
+
+! return rightclick
+a1p.jp##+js(ra, oncontextmenu)
