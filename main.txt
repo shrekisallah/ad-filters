@@ -1,4 +1,4 @@
-! Version: 104
+! Version: 105
 ! Title: Custom Blocker
 ! Last modified: 14 Apr 2022
 ! Expires: 24 hours
@@ -58,6 +58,8 @@
 auth0.com/_/log
 /dwh-metrics
 /newrelic-*.js
+! matamo
+/m.js
 
 
 ! ads
@@ -103,6 +105,7 @@ myanimelist.net##div[class^="pda-tla-"]
 *paywall
 ##.unlock-section
 mathpapa.com###solstepshowlink:style(display:inline !important)
+||api.memberstack.io^$domain=rosscreations.com
 
 ! social media
 /*Facebook%20Icon.svg
