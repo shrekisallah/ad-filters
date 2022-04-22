@@ -15,7 +15,7 @@ qwant.com##div[domain*="pinterest."]
 yandex.ru##.desktop-card:has(a[href*="pinterest."])
 
 ! fake 9animes
-google.*##.g:has(a[href^="https://9anime"]):not(:has(a[href="https://9anime.me/"])):not(:has(a[href="https://9anime.to/"])):not(:has(a[href="https://9anime.id/"])):not(:has(a[href="https://9anime.club/"])):not(:has(a[href="https://9anime.center/"]):not(:has(a[href="https://9anime.pl"])))
+google.*##.g:has(a[href^="https://9anime"]):not(:has(a[href="https://9anime.me/"])):not(:has(a[href="https://9anime.to/"])):not(:has(a[href="https://9anime.id/"])):not(:has(a[href="https://9anime.pl"])))
 google.*##.g:has(a[href*="ww.9anime"])
 
 ! stackoverflow clones (https://github.com/quenhus/uBlock-Origin-dev-filter/blob/main/dist/google/stackoverflow_copycats.txt)
