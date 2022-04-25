@@ -132,7 +132,6 @@ mathpapa.com###solstepshowlink:style(display:inline !important)
 ##.social
 ##.socials
 ##.social-icons
-##.socialIcons
 ##[alt*="facebook"]
 /tiktok*.svg
 ##.share-via
