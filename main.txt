@@ -1,4 +1,4 @@
-! Version: 105
+! Version: 106
 ! Title: Custom Blocker
 ! Last modified: 14 Apr 2022
 ! Expires: 24 hours
@@ -88,7 +88,7 @@ myanimelist.net##div.footer-link-icon-block:nth-of-type(1)
 myanimelist.net##.tag_pc_top
 adlock.com##.adl__spec__disc__content
 adlock.com##.aside__cta
--promo$image
+^promo$image
 givebat.com##div[class*="DownloadBraveBanner"]
 theguardian.com##gu-island[name="TopRightAdSlot"]
 theguardian.com##gu-island[name="Branding"]
@@ -121,10 +121,6 @@ mathpapa.com###solstepshowlink:style(display:inline !important)
 ##.icon.icon-twitter
 /fb_32x32.png
 /twitter_32x32.png
-##div[class*="facebook"]
-##div[class*="twitter"]
-##div[class*="instagram"]
-##div[class*="linkedin"]
 ###menu-latest-footer-social-menu
 ###social
 ##.btn-social
@@ -133,6 +129,10 @@ mathpapa.com###solstepshowlink:style(display:inline !important)
 ##.socials
 ##.social-icons
 ##[alt*="facebook"]
+##input[alt^="Share on "]
+##button[aria-label^="Share on "]
+##[class*="follow-icons"]
+##[class$="socialLinkWrapper"]
 /tiktok*.svg
 ##.share-via
 ##.social-icon
@@ -166,6 +166,7 @@ hypixel.net##.p-body-sidebar > div.block:nth-of-type(2)
 /PushNotifications
 ###fsPagePopNotification
 deletefdp.today##.react-toast-notifications__container
+||safelinks.protection.outlook.com^
 
 ! cookies
 /cookieconsentpub/v1/geo/location
@@ -185,6 +186,7 @@ google.*##div:has(> a[href$="/cookies/"])
 
 ! error reporting
 ||reddit.com/errors
+||lms.roblox.com/report
 ^csp
 /reportcsp
 
@@ -204,6 +206,8 @@ google.*##div:has(> a[href$="/cookies/"])
 ^blm-logo.png
 /idevices.
 
+! jwplayer
+/jwpsrv$script
 
 ! website specific
 
@@ -329,3 +333,4 @@ github.com##.mx-auto.width-fit.d-block
 
 ! return rightclick
 a1p.jp##+js(ra, oncontextmenu)
+globle-game.com##+js(aeld, contextmenu)
