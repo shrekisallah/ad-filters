@@ -5,4 +5,4 @@
 ! Expires: 14 days
 
 myschoolapp.com###missing-assignment
-myschoolapp.com###.label.label-danger
+myschoolapp.com##.label.label-danger
