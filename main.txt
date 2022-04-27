@@ -72,8 +72,6 @@ auth0.com/_/log
 ##[class$="ad-hfu"]
 /*ad*free$image
 *ad*blocked$image
-##:has-text(/ad free/i)
-##:has-text(/premium plans/i)
 ##.ad-container
 ##.ads-in-page
 blockchair.com##span:has-text(/sponsored/i):upward(4)
@@ -136,7 +134,6 @@ mathpapa.com###solstepshowlink:style(display:inline !important)
 /tiktok*.svg
 ##.share-via
 ##.social-icon
-##span:has-text(/connect/i):upward(1)
 ##[aria-label="Social media"]
 ##.social-media
 exodus.com##.x__social
@@ -175,8 +172,6 @@ deletefdp.today##.react-toast-notifications__container
 /onetrust/consent
 ###user_optin_banner
 ###cookies
-##span:has-text(/third-party cookies/i):upward(1)
-##div:has-text(/^we use cookies/i)
 canva.com##div:has-text(/we use essential cookies/i)
 ##.ccpa-floating-bar
 youmail.com##.modal-content:has(span:has-text(/this website uses cookies/i))
