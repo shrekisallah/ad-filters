@@ -1,4 +1,4 @@
-! Version: 106
+! Version: 107
 ! Title: Custom Blocker
 ! Last modified: 14 Apr 2022
 ! Expires: 24 hours
@@ -55,7 +55,7 @@
 /P4x88I
 ||cchome.adobe.io/app/v2/logs
 ||support.vyprvpn.com/hc/activity
-auth0.com/_/log
+/_/log
 /dwh-metrics
 /newrelic-*.js
 ! matamo
