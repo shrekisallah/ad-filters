@@ -6,3 +6,4 @@
 
 myschoolapp.com###missing-assignment
 myschoolapp.com##.label.label-danger
+myschoolapp.com##td > a[style$="fbe5e4"]
