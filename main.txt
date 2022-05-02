@@ -1,4 +1,4 @@
-! Version: 108
+! Version: 109
 ! Title: Custom Blocker
 ! Last modified: 29 Apr 2022
 ! Expires: 24 hours
@@ -329,4 +329,4 @@ github.com##.mx-auto.width-fit.d-block
 
 ! return rightclick
 a1p.jp##+js(ra, oncontextmenu)
-globle-game.com##+js(aeld, contextmenu)
+globle-game.com,mapnwea.org##+js(aeld, contextmenu)
