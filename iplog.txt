@@ -1,0 +1,50 @@
+! Title: Anti Ip-Logger
+! Homepage: https://github.com/shrekisallah/adblockplus-filter
+! Expires: 24 Hours
+
+
+! grabify
+
+||grabify.link^
+@@||grabify.link/track/
+||partpicker.shop^
+||sportshub.bar^
+||locations.quest^
+||lovebird.guru^
+||trulove.guru^
+||dateing.club^
+||shrekis.life^
+||headshot.monster^
+||gaming-at-my.best^
+||progaming.monster^
+||yourmy.monster^
+||imageshare.best^
+||screenshot.best^
+||gamingfun.me^
+||catsnthing.com^
+||catsnthings.fun^
+||curiouscat.club^
+||joinmy.site^
+||fortnitechat.site^
+||fortnight.space^
+||freegiftcards.co^
+||stopify.co^
+||leancoding.co^
+
+! iplogger.org
+||iplogger.*^
+||ipgrabber.*^
+@@||iplogger.org/logger/
+@@||iplogger.org/listfull/
+||2no.co^
+||iplis.ru^
+||02ip.ru^
+||ezstat.ru^
+||yip.su^
+
+! others
+||yȯutube.com^
+||gyazo.nl^
+@@||yȯutube.com/logs/
+@@||gyazo.nl/logs/
+||ythingy.com^
