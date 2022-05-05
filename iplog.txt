@@ -5,7 +5,7 @@
 
 ! grabify
 
-||grabify.link^
+||grabify.link^$doc
 @@||grabify.link/track/
 ||partpicker.shop^
 ||sportshub.bar^
