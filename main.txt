@@ -1,6 +1,6 @@
-! Version: 109
+! Version: 110
 ! Title: Custom Blocker
-! Last modified: 29 Apr 2022
+! Last modified: 5 May 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -52,6 +52,7 @@
 /buy^$script
 ^chilipiper/marketing.js$script
 ||www.mathpapa.com/gte^
+||cloud.ibm.com/akam-sw
 /P4x88I
 ||cchome.adobe.io/app/v2/logs
 ||support.vyprvpn.com/hc/activity
@@ -96,6 +97,9 @@ theguardian.com##gu-island[name="Branding"]
 ||i.imgur.com^$domain=damedesuyo.com
 adshnk.com##.message.success.ui
 myanimelist.net##div[class^="pda-tla-"]
+top.gg##article[data-testid^="promoted"]
+top.gg##+js(json-prune, flags.[].adWaitTimeMs)
+webresolver.nl##.panel-body > .col-md-4:upward(1)
 
 
 ! paywalls
@@ -143,7 +147,7 @@ history.com##.m-header--social-nav
 ! annoyances
 ##.boxzilla
 ###signup-promo-modal
-##.modal-backdrop
+~storymap.knightlab.com##.modal-backdrop
 ##.house-promo
 ##div[data-obj*="Powerful Women"]
 nytimes.com##[aria-label="A message from The Times"]
@@ -185,6 +189,7 @@ google.*##div:has(> a[href$="/cookies/"])
 ||lms.roblox.com/report
 ^csp
 /reportcsp
+/jserror
 
 ! other
 /ccpa.js
@@ -262,6 +267,7 @@ youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.yt
 youtube.com###dismissible.ytd-primetime-promo-renderer
 docs.google.com##.jfk-butterBar-shown.jfk-butterBar-info.jfk-butterBar
 google.*###watermark
+||peoplestackwebexperiments-pa.*.google.com^
 
 
 ! microsoft
@@ -327,6 +333,6 @@ github.com##.mx-auto.width-fit.d-block
 
 ! scriptlet injections
 
-! return rightclick
 a1p.jp##+js(ra, oncontextmenu)
 globle-game.com,mapnwea.org##+js(aeld, contextmenu)
+mapnwea.org##+js(aeld, /^(?:contextmenu|mousemove)$/)
