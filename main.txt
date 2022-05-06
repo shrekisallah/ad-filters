@@ -1,6 +1,6 @@
-! Version: 110
+! Version: 111
 ! Title: Custom Blocker
-! Last modified: 5 May 2022
+! Last modified: 6 May 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -334,5 +334,5 @@ github.com##.mx-auto.width-fit.d-block
 ! scriptlet injections
 
 a1p.jp##+js(ra, oncontextmenu)
-globle-game.com,mapnwea.org##+js(aeld, contextmenu)
+globle-game.com,membean.com##+js(aeld, contextmenu)
 mapnwea.org##+js(aeld, /^(?:contextmenu|mousemove)$/)
