@@ -1,6 +1,6 @@
-! Version: 111
+! Version: 112
 ! Title: Custom Blocker
-! Last modified: 6 May 2022
+! Last modified: 10 May 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -35,6 +35,8 @@
 ||cirsepuh.net^
 ||s.viioxx.com^
 ||vyprvpn.zendesk.com^
+||bandar-logger.prezi.com^
+||log-fallback.prezi.com^
 
 
 ! trackers
@@ -59,6 +61,7 @@
 /_/log
 /dwh-metrics
 /newrelic-*.js
+/engagement-tools$script
 ! matamo
 /m.js
 
@@ -104,7 +107,7 @@ webresolver.nl##.panel-body > .col-md-4:upward(1)
 
 ! paywalls
 ! www.enotes.com###enotes-paywall
-*paywall
+*paywall$~xhr
 ##.unlock-section
 mathpapa.com###solstepshowlink:style(display:inline !important)
 sparknotes.com##.promotional_modal_outer_container
@@ -169,6 +172,7 @@ hypixel.net##.p-body-sidebar > div.block:nth-of-type(2)
 ###fsPagePopNotification
 deletefdp.today##.react-toast-notifications__container
 ||safelinks.protection.outlook.com^
+keepa.com###popup3
 
 ! cookies
 /cookieconsentpub/v1/geo/location
@@ -183,6 +187,7 @@ youmail.com##.modal-content:has(span:has-text(/this website uses cookies/i))
 youtube.com##ytd-consent-bump-v2-lightbox
 youtube.com##.opened
 google.*##div:has(> a[href$="/cookies/"])
+##.web_cookie
 
 ! error reporting
 ||reddit.com/errors
