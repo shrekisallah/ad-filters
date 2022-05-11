@@ -32,8 +32,8 @@
 ||leancoding.co^
 
 ! iplogger.org
-||iplogger.
-||ipgrabber.
+||iplogger.$doc
+||ipgrabber.$doc
 @@||iplogger.org/logger/
 @@||iplogger.org/listfull/
 ||2no.co^
