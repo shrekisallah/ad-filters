@@ -1,4 +1,4 @@
-! Version: 115
+! Version: 116
 ! Title: Custom Blocker
 ! Last modified: 12 May 2022
 ! Expires: 24 hours
@@ -41,7 +41,7 @@
 
 
 ! trackers
-/*tracking$script
+/*tracking$script,domain=~fandom.com
 /ts?c.prod.editor.logging.levels
 /atrk.gif
 /mixpanel-2-latest.min.js
