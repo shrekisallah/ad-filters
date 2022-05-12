@@ -1,6 +1,6 @@
-! Version: 113
+! Version: 114
 ! Title: Custom Blocker
-! Last modified: 11 May 2022
+! Last modified: 12 May 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -181,6 +181,8 @@ keepa.com###popup3
 palipost.com##.wppopups-whole
 youtube.com###donation-shelf
 youtube.com###chat:has-text(Chat Replay is disabled)
+bardeen.ai##.ph-wrapper
+
 
 ! cookies
 /cookieconsentpub/v1/geo/location
