@@ -1,6 +1,6 @@
-! Version: 112
+! Version: 113
 ! Title: Custom Blocker
-! Last modified: 10 May 2022
+! Last modified: 11 May 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -37,6 +37,7 @@
 ||vyprvpn.zendesk.com^
 ||bandar-logger.prezi.com^
 ||log-fallback.prezi.com^
+||api.trackship.shipengine.com^
 
 
 ! trackers
@@ -103,6 +104,9 @@ myanimelist.net##div[class^="pda-tla-"]
 top.gg##article[data-testid^="promoted"]
 top.gg##+js(json-prune, flags.[].adWaitTimeMs)
 webresolver.nl##.panel-body > .col-md-4:upward(1)
+top.gg##span:has-text(Support us on):upward(3)
+top.gg##h2:has-text(Don't want to watch ads?):upward(3)
+regex101.com##a[href*="utm_campaign"]:upward(4)
 
 
 ! paywalls
@@ -146,6 +150,7 @@ sparknotes.com##.promotional_modal_outer_container
 ##.social-media
 exodus.com##.x__social
 history.com##.m-header--social-nav
+discord.com##div[class^="socialLinks-"]
 
 ! annoyances
 ##.boxzilla
@@ -173,6 +178,9 @@ hypixel.net##.p-body-sidebar > div.block:nth-of-type(2)
 deletefdp.today##.react-toast-notifications__container
 ||safelinks.protection.outlook.com^
 keepa.com###popup3
+palipost.com##.wppopups-whole
+youtube.com###donation-shelf
+youtube.com###chat:has-text(Chat Replay is disabled)
 
 ! cookies
 /cookieconsentpub/v1/geo/location
@@ -195,6 +203,7 @@ google.*##div:has(> a[href$="/cookies/"])
 ^csp
 /reportcsp
 /jserror
+/errorlog
 
 ! other
 /ccpa.js
@@ -214,6 +223,9 @@ google.*##div:has(> a[href$="/cookies/"])
 
 ! jwplayer
 /jwpsrv$script
+
+! fixes
+@@||glookup.info^$domain=grabify.link
 
 ! website specific
 
