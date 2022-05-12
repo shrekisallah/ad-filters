@@ -1,4 +1,4 @@
-! Version: 114
+! Version: 115
 ! Title: Custom Blocker
 ! Last modified: 12 May 2022
 ! Expires: 24 hours
@@ -135,7 +135,7 @@ sparknotes.com##.promotional_modal_outer_container
 ###social
 ##.btn-social
 ##.btn-download-app
-##.social
+~tampermonkey.net##.social
 ##.socials
 ##.social-icons
 ##[alt*="facebook"]
