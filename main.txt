@@ -6,7 +6,7 @@
 
 ! generic filters
 
-! bad domains
+! bad domains (includes subdomains)
 ||js.chilipiper.com^
 ||fam-ad.com^
 ||onanalytics.myschoolcdn.com^
@@ -38,6 +38,7 @@
 ||bandar-logger.prezi.com^
 ||log-fallback.prezi.com^
 ||api.trackship.shipengine.com^
+||cchome.adobe.io^
 
 
 ! trackers
@@ -58,7 +59,6 @@
 ||cloud.ibm.com/akam-sw
 ||top.gg/api/auctions^
 /P4x88I
-||cchome.adobe.io^
 ||support.vyprvpn.com/hc/activity
 /_/log
 /dwh-metrics
