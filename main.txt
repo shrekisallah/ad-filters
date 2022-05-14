@@ -1,6 +1,6 @@
-! Version: 116
+! Version: 117
 ! Title: Custom Blocker
-! Last modified: 12 May 2022
+! Last modified: 13 May 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -56,8 +56,9 @@
 ^chilipiper/marketing.js$script
 ||www.mathpapa.com/gte^
 ||cloud.ibm.com/akam-sw
+||top.gg/api/auctions^
 /P4x88I
-||cchome.adobe.io/app/v2/logs
+||cchome.adobe.io^
 ||support.vyprvpn.com/hc/activity
 /_/log
 /dwh-metrics
@@ -138,6 +139,7 @@ sparknotes.com##.promotional_modal_outer_container
 ~tampermonkey.net##.social
 ##.socials
 ##.social-icons
+##.grve-social
 ##[alt*="facebook"]
 ##input[alt^="Share on "]
 ##button[aria-label^="Share on "]
@@ -151,13 +153,13 @@ sparknotes.com##.promotional_modal_outer_container
 exodus.com##.x__social
 history.com##.m-header--social-nav
 discord.com##div[class^="socialLinks-"]
+iheart.com##.component-social-icons
 
 ! annoyances
 ##.boxzilla
 ###signup-promo-modal
 ~storymap.knightlab.com##.modal-backdrop
 ##.house-promo
-##div[data-obj*="Powerful Women"]
 nytimes.com##[aria-label="A message from The Times"]
 chess.com##.ready-to-play-banner-desktop.ready-to-play-banner-component
 diffchecker.com##.banner
@@ -182,6 +184,8 @@ palipost.com##.wppopups-whole
 youtube.com###donation-shelf
 youtube.com###chat:has-text(Chat Replay is disabled)
 bardeen.ai##.ph-wrapper
+programiz.com##.notice-bar-top
+/watermark
 
 
 ! cookies
@@ -228,6 +232,7 @@ google.*##div:has(> a[href$="/cookies/"])
 
 ! fixes
 @@||glookup.info^$domain=grabify.link
+makemynewspaper.com#@##share_link
 
 ! website specific
 
