@@ -1,6 +1,6 @@
-! Version: 118
+! Version: 119
 ! Title: Custom Blocker
-! Last modified: 16 May 2022
+! Last modified: 17 May 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -65,6 +65,7 @@
 /newrelic-*.js
 /engagement-tools$script
 /ga$script
+/tincan$script
 ! matamo
 /m.js
 
@@ -117,6 +118,7 @@ regex101.com##a[href*="utm_campaign"]:upward(4)
 ##.unlock-section
 mathpapa.com###solstepshowlink:style(display:inline !important)
 sparknotes.com##.promotional_modal_outer_container
+||washingtonpost.com/subscribe/paywall
 ||api.memberstack.io^$domain=rosscreations.com
 
 ! social media
@@ -139,6 +141,8 @@ sparknotes.com##.promotional_modal_outer_container
 ##.btn-download-app
 ~tampermonkey.net##.social
 ##.socials
+##.sharing
+##.wrap-share
 ##.social-icons
 ##.grve-social
 ##.social-cos
@@ -156,6 +160,8 @@ exodus.com##.x__social
 history.com##.m-header--social-nav
 discord.com##div[class^="socialLinks-"]
 iheart.com##.component-social-icons
+miniwebtool.com###thecaption
+miniwebtool.com##button.w3-large.w3-round-large.w3-green.w3-btn:nth-of-type(1)
 
 ! annoyances
 ##.boxzilla
