@@ -1,6 +1,6 @@
-! Version: 119
+! Version: 120
 ! Title: Custom Blocker
-! Last modified: 17 May 2022
+! Last modified: 18 May 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -114,11 +114,10 @@ regex101.com##a[href*="utm_campaign"]:upward(4)
 
 ! paywalls
 ! www.enotes.com###enotes-paywall
-*paywall$~xhr
+*paywall$domain=~reddit.com
 ##.unlock-section
 mathpapa.com###solstepshowlink:style(display:inline !important)
 sparknotes.com##.promotional_modal_outer_container
-||washingtonpost.com/subscribe/paywall
 ||api.memberstack.io^$domain=rosscreations.com
 
 ! social media
