@@ -1,6 +1,6 @@
-! Version: 120
+! Version: 121
 ! Title: Custom Blocker
-! Last modified: 18 May 2022
+! Last modified: 19 May 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -51,13 +51,14 @@
 /aurora.js
 /v2/collect
 ^tracking^
-/vendor-list.json
+/vendor-list
 /v1/produce
 /buy^$script
 ^chilipiper/marketing.js$script
 ||www.mathpapa.com/gte^
 ||cloud.ibm.com/akam-sw
 ||top.gg/api/auctions^
+||science-edge-external-prod-*.elb.amazonaws.com^
 /P4x88I
 ||support.vyprvpn.com/hc/activity
 /_/log
@@ -119,6 +120,11 @@ regex101.com##a[href*="utm_campaign"]:upward(4)
 mathpapa.com###solstepshowlink:style(display:inline !important)
 sparknotes.com##.promotional_modal_outer_container
 ||api.memberstack.io^$domain=rosscreations.com
+||bloomberg.com/subscription-offer
+bloomberg.com###fortress-paywall-container-root
+bloomberg.com,brainly.com##body:style(overflow: auto !important)
+/fortress-client/*
+/tetro-client/*
 
 ! social media
 /*Facebook%20Icon.svg
@@ -161,6 +167,7 @@ discord.com##div[class^="socialLinks-"]
 iheart.com##.component-social-icons
 miniwebtool.com###thecaption
 miniwebtool.com##button.w3-large.w3-round-large.w3-green.w3-btn:nth-of-type(1)
+atozmath.com##a[onclick^="share"]:upward(3)
 
 ! annoyances
 ##.boxzilla
@@ -194,6 +201,7 @@ youtube.com###chat:has-text(Chat Replay is disabled)
 bardeen.ai##.ph-wrapper
 programiz.com##.notice-bar-top
 /watermark
+atozmath.com###lblAdContent
 ! disqus new comment annoyance
 9anime.*##[id^="indicator"]
 
@@ -222,7 +230,7 @@ google.*##div:has(> a[href$="/cookies/"])
 /errorlog
 
 ! other
-/ccpa.js
+/ccpa
 /zerg^$script,third-party
 
 ! geo ip + other
