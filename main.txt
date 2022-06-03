@@ -1,6 +1,6 @@
-! Version: 121
+! Version: 122
 ! Title: Custom Blocker
-! Last modified: 19 May 2022
+! Last modified: 2 June 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -67,6 +67,7 @@
 /engagement-tools$script
 /ga$script
 /tincan$script
+/at$script,stylesheet
 ! matamo
 /m.js
 
@@ -111,6 +112,7 @@ webresolver.nl##.panel-body > .col-md-4:upward(1)
 top.gg##span:has-text(Support us on):upward(3)
 top.gg##h2:has-text(Don't want to watch ads?):upward(3)
 regex101.com##a[href*="utm_campaign"]:upward(4)
+lingojam.com##a[href*="utm_source"]
 
 
 ! paywalls
@@ -168,6 +170,7 @@ iheart.com##.component-social-icons
 miniwebtool.com###thecaption
 miniwebtool.com##button.w3-large.w3-round-large.w3-green.w3-btn:nth-of-type(1)
 atozmath.com##a[onclick^="share"]:upward(3)
+www.pcgamingrace.com##.footTwo
 
 ! annoyances
 ##.boxzilla
@@ -202,6 +205,10 @@ bardeen.ai##.ph-wrapper
 programiz.com##.notice-bar-top
 /watermark
 atozmath.com###lblAdContent
+zoro.to##.mba-block
+youtube.com###paid-comment-images
+youtube.com###paid-comment-chip
+www.dropbox.com##.ReactModalPortal
 ! disqus new comment annoyance
 9anime.*##[id^="indicator"]
 
@@ -251,6 +258,7 @@ google.*##div:has(> a[href$="/cookies/"])
 ! fixes
 @@||glookup.info^$domain=grabify.link
 makemynewspaper.com#@##share_link
+yutaaoki.com#@##mc_embed_signup_scroll
 
 ! website specific
 
