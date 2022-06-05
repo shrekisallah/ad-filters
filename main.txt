@@ -1,6 +1,6 @@
-! Version: 122
+! Version: 123
 ! Title: Custom Blocker
-! Last modified: 2 June 2022
+! Last modified: 5 June 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -209,6 +209,7 @@ zoro.to##.mba-block
 youtube.com###paid-comment-images
 youtube.com###paid-comment-chip
 www.dropbox.com##.ReactModalPortal
+discord.com##div[class^="notice"]
 ! disqus new comment annoyance
 9anime.*##[id^="indicator"]
 
@@ -247,7 +248,6 @@ google.*##div:has(> a[href$="/cookies/"])
 ||freegeoip.app/json$3p
 
 ! useless website stuff
-/captions
 /mobile$stylesheet
 ^blm-logo.png
 /idevices.
