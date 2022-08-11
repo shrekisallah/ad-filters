@@ -322,7 +322,7 @@ google.*###watermark
 
 ! microsoft
 microsoft.com##.c-uhfh-alert.f-information.epb-container.theme-light.b-white
-/assets/light-*.css
+/assets/light-*.css$domain=~kitsu.io
 
 ! grammarflip (could block slideshare)
 embed-fastly.wistia.com$media
