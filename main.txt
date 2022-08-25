@@ -1,6 +1,6 @@
-! Version: 123
+! Version: 124
 ! Title: Custom Blocker
-! Last modified: 5 June 2022
+! Last modified: 25 August 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -113,6 +113,7 @@ top.gg##span:has-text(Support us on):upward(3)
 top.gg##h2:has-text(Don't want to watch ads?):upward(3)
 regex101.com##a[href*="utm_campaign"]:upward(4)
 lingojam.com##a[href*="utm_source"]
+9anime.*##.adx
 
 
 ! paywalls
@@ -210,6 +211,7 @@ youtube.com###paid-comment-images
 youtube.com###paid-comment-chip
 www.dropbox.com##.ReactModalPortal
 discord.com##div[class^="notice"]
+youtube.com###clarify-box
 ! disqus new comment annoyance
 9anime.*##[id^="indicator"]
 
@@ -227,6 +229,8 @@ youmail.com##.modal-content:has(span:has-text(/this website uses cookies/i))
 youtube.com##ytd-consent-bump-v2-lightbox
 youtube.com##.opened
 google.*##div:has(> a[href$="/cookies/"])
+animeschedule.net###custom-consent-popup-container
+animeschedule.net###custom-consent-popup-wrapper
 ##.web_cookie
 
 ! error reporting
