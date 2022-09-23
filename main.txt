@@ -1,6 +1,6 @@
-! Version: 124
+! Version: 125
 ! Title: Custom Blocker
-! Last modified: 25 August 2022
+! Last modified: 23 September 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -39,6 +39,7 @@
 ||log-fallback.prezi.com^
 ||api.trackship.shipengine.com^
 ||cchome.adobe.io^
+||excess.duolingo.com^
 
 
 ! trackers
@@ -114,6 +115,7 @@ top.gg##h2:has-text(Don't want to watch ads?):upward(3)
 regex101.com##a[href*="utm_campaign"]:upward(4)
 lingojam.com##a[href*="utm_source"]
 9anime.*##.adx
+techpp.com###tppAdsID
 
 
 ! paywalls
