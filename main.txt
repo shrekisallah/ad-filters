@@ -1,6 +1,6 @@
 ! Version: 126
 ! Title: Custom Blocker
-! Last modified: 3 October 2022
+! Last modified: 25 December 2022
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -178,7 +178,7 @@ www.pcgamingrace.com##.footTwo
 ! annoyances
 ##.boxzilla
 ###signup-promo-modal
-~storymap.knightlab.com##.modal-backdrop
+~storymap.knightlab.com,~connect.garmin.com##.modal-backdrop
 ##.house-promo
 nytimes.com##[aria-label="A message from The Times"]
 chess.com##.ready-to-play-banner-desktop.ready-to-play-banner-component
