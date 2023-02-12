@@ -1,6 +1,6 @@
 ! Title: Anti Ip-Logger
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
-! Expires: 24 Hours
+! Expires: 1 Month
 
 
 ! grabify
