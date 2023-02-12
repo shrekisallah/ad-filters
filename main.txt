@@ -1,6 +1,6 @@
-! Version: 126
+! Version: 127
 ! Title: Custom Blocker
-! Last modified: 25 December 2022
+! Last modified: 12 February 2023
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -69,6 +69,7 @@
 /ga$script
 /tincan$script
 /at$script,stylesheet
+/sentry-run.js
 ! matamo
 /m.js
 
@@ -85,12 +86,14 @@
 *ad*blocked$image
 ##.ad-container
 ##.ads-in-page
+##.marketing-bar
 blockchair.com##span:has-text(/sponsored/i):upward(4)
 linkvertise.com##[src*="/suggestions"]:upward(12)
 quizlet.com##.SetPageTerms-embeddedDesktopAdz
 ##[data-ad-sticky]
 quizlet.com##.MatchModeStudyBreak-adContainer
 quizlet.com##.MatchModeStudyBreak-adWrapper
+quizlet.com##.Toastify
 ###endpoint[href="/premium"]
 myanimelist.net##.ac.footer-recommended
 myanimelist.net##div.footer-link-icon-block:nth-of-type(1)
@@ -116,6 +119,11 @@ regex101.com##a[href*="utm_campaign"]:upward(4)
 lingojam.com##a[href*="utm_source"]
 9anime.*##.adx
 techpp.com###tppAdsID
+www.ipl.org###AdCenterMiddle
+www.ipl.org##.center
+www.ipl.org##.paper__gradient
+edubirdie.com##.exit-popup
+edubirdie.com##.content-banner
 
 
 ! paywalls
@@ -214,8 +222,12 @@ youtube.com###paid-comment-chip
 www.dropbox.com##.ReactModalPortal
 discord.com##div[class^="notice"]
 youtube.com###clarify-box
+www.nationstates.net###dilemmasadboxinner
+www.nationstates.net##.nonregular-content
 ! disqus new comment annoyance
 9anime.*##[id^="indicator"]
+! mal
+myanimelist.net##div[data-user="magicthegandhi"]
 
 
 ! cookies
@@ -234,6 +246,7 @@ google.*##div:has(> a[href$="/cookies/"])
 animeschedule.net###custom-consent-popup-container
 animeschedule.net###custom-consent-popup-wrapper
 ##.web_cookie
+###cookie-agreement-banner
 
 ! error reporting
 ||reddit.com/errors
@@ -390,5 +403,9 @@ github.com##.mx-auto.width-fit.d-block
 ! scriptlet injections
 
 a1p.jp##+js(ra, oncontextmenu)
-globle-game.com,membean.com,mcloud.*,geogebra.org##+js(aeld, contextmenu)
+aspose.app,globle-game.com,membean.com,mcloud.*,geogebra.org##+js(aeld, contextmenu)
 mapnwea.org##+js(aeld, /^(?:contextmenu|mousemove)$/)
+hwansang.net##+js(aeld, /^?:contextmenu|onContextMenu$/)
+
+! inline script blocking
+||edubirdie.com^$inline-script
