@@ -1,4 +1,4 @@
-! Version: 127
+! Version: 128
 ! Title: Custom Blocker
 ! Last modified: 12 February 2023
 ! Expires: 24 hours
@@ -224,6 +224,7 @@ discord.com##div[class^="notice"]
 youtube.com###clarify-box
 www.nationstates.net###dilemmasadboxinner
 www.nationstates.net##.nonregular-content
+9anime.*##.notice
 ! disqus new comment annoyance
 9anime.*##[id^="indicator"]
 ! mal
