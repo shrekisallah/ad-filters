@@ -1,6 +1,6 @@
-! Version: 128
+! Version: 129
 ! Title: Custom Blocker
-! Last modified: 12 February 2023
+! Last modified: 26 February 2023
 ! Expires: 24 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
@@ -229,6 +229,7 @@ www.nationstates.net##.nonregular-content
 9anime.*##[id^="indicator"]
 ! mal
 myanimelist.net##div[data-user="magicthegandhi"]
+myanimelist.net##div[data-user="HiddenByDesign"]
 
 
 ! cookies
