@@ -1,7 +1,7 @@
-! Version: 129
+! Version: 130
 ! Title: Custom Blocker
-! Last modified: 26 February 2023
-! Expires: 24 hours
+! Last modified: 21 August 2023
+! Expires: 48 hours
 ! Homepage: https://github.com/shrekisallah/adblockplus-filter
 
 ! generic filters
@@ -117,7 +117,7 @@ top.gg##span:has-text(Support us on):upward(3)
 top.gg##h2:has-text(Don't want to watch ads?):upward(3)
 regex101.com##a[href*="utm_campaign"]:upward(4)
 lingojam.com##a[href*="utm_source"]
-9anime.*##.adx
+aniwave.to##.adx
 techpp.com###tppAdsID
 www.ipl.org###AdCenterMiddle
 www.ipl.org##.center
@@ -224,9 +224,9 @@ discord.com##div[class^="notice"]
 youtube.com###clarify-box
 www.nationstates.net###dilemmasadboxinner
 www.nationstates.net##.nonregular-content
-9anime.*##.notice
+aniwave.to##.notice
 ! disqus new comment annoyance
-9anime.*##[id^="indicator"]
+aniwave.to##[id^="indicator"]
 ! mal
 myanimelist.net##div[data-user="magicthegandhi"]
 myanimelist.net##div[data-user="HiddenByDesign"]
